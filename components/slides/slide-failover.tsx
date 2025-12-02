@@ -12,21 +12,21 @@ docker stop rs2_p
 # Observer les logs pour la nouvelle élection PRIMARY`
 
   const electionLog = `# Ancien PRIMARY arrêté
-10.39.239.119:27018 - stateStr: '(not reachable/healthy)'
+laptop3:27018 - stateStr: '(not reachable/healthy)'
 lastHeartbeatMessage: "Couldn't get a connection within the time limit"
 
 # Nouveau PRIMARY élu
-10.39.239.237:27018 - stateStr: 'PRIMARY'
+laptop2:27018 - stateStr: 'PRIMARY'
 electionTime: Timestamp({ t: 1764006945, i: 1 })
 electionDate: ISODate('2025-11-24T17:55:45.000Z')
 
 # Ancien primary redémarré → devient SECONDARY
 docker start rs2_p
-10.39.239.119:27018 - stateStr: 'SECONDARY'`
+laptop3:27018 - stateStr: 'SECONDARY'`
 
   const heartbeatLog = `{
   _id: 1,
-  name: '10.39.239.119:27018',
+  name: 'laptop3:27018',
   health: 0,
   state: 8,
   stateStr: '(not reachable/healthy)',

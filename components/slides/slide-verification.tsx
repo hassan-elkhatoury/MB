@@ -6,7 +6,7 @@ import { Search, CheckCircle2 } from "lucide-react"
 
 export function SlideVerification() {
   const readFromSecondary = `# Nous avons lu depuis le noeud secondary
-# Connexion à 10.39.239.119:27018 (secondary)
+# Connexion à laptop3:27018 (secondary)
 
 rs2 [direct: secondary] transport> db.lines.find().sort({_id: -1}).limit(1)
 [

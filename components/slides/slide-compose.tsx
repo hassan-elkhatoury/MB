@@ -50,7 +50,15 @@ services:
     container_name: rs3_s2
     command: mongod --shardsvr --replSet rs3 --bind_ip_all
     ports:
-      - "27019:27017"`,
+      - "27019:27017"
+  mongos:
+    image: mongo:6.0
+    container_name: mongos
+    command: >
+      mongos --configdb configRS/laptop2:26050,laptop3:26050,laptop4:26050
+      --bind_ip_all --port 27020
+    ports:
+      - "27020:27020"`,
   laptop3: `# Laptop3 - Youssef
 version: '3.8'
 services:
@@ -77,7 +85,15 @@ services:
     container_name: rs3_s3
     command: mongod --shardsvr --replSet rs3 --bind_ip_all
     ports:
-      - "27019:27017"`,
+      - "27019:27017"
+  mongos:
+    image: mongo:6.0
+    container_name: mongos
+    command: >
+      mongos --configdb configRS/laptop2:26050,laptop3:26050,laptop4:26050
+      --bind_ip_all --port 27020
+    ports:
+      - "27020:27020"`,
   laptop4: `# Laptop4 - Hassan
 version: '3.8'
 services:
@@ -104,7 +120,15 @@ services:
     container_name: rs2_s3
     command: mongod --shardsvr --replSet rs2 --bind_ip_all
     ports:
-      - "27018:27017"`,
+      - "27018:27017"
+  mongos:
+    image: mongo:6.0
+    container_name: mongos
+    command: >
+      mongos --configdb configRS/laptop2:26050,laptop3:26050,laptop4:26050
+      --bind_ip_all --port 27020
+    ports:
+      - "27020:27020"`,
 }
 
 export function SlideCompose() {

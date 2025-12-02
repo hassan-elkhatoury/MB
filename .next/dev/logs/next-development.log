@@ -1,95 +1,6 @@
-[00:00:02.998] Server  LOG      ✓ Ready in 2s
-[00:00:21.609] Server  LOG      ○ Compiling / ...
-[00:00:25.414] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_8f1c4a24.module.css
-    [next]/internal/font/google/inter_8f1c4a24.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:00:25.415] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-    [next]/internal/font/google/jetbrains_mono_21597d07.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:00:25.416] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
-next/font: warning:
-Failed to download `Inter` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_8f1c4a24.module.css
-    [next]/internal/font/google/inter_8f1c4a24.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:00:25.417] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-next/font: warning:
-Failed to download `JetBrains Mono` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-    [next]/internal/font/google/jetbrains_mono_21597d07.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:00:29.194] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_8f1c4a24.module.css
-    [next]/internal/font/google/inter_8f1c4a24.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:00:29.195] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-    [next]/internal/font/google/jetbrains_mono_21597d07.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:00:29.196] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
-next/font: warning:
-Failed to download `Inter` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_8f1c4a24.module.css
-    [next]/internal/font/google/inter_8f1c4a24.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:00:29.198] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-next/font: warning:
-Failed to download `JetBrains Mono` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-    [next]/internal/font/google/jetbrains_mono_21597d07.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:00:32.393] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:33.490] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:00.927] Server  LOG      ✓ Ready in 608ms
+[00:00:33.953] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:34.125] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -102,356 +13,204 @@ It can also happen if the client has a browser extension installed which messes 
 %s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="/Desktop/M...">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en" className="dark">
-                          <body
-                            className="inter_8f1c4a24-module__nx7jFG__variable jetbrains_mono_21597d07-module__LmI-Gq_..."
--                           data-new-gr-c-s-check-loaded="14.1264.0"
--                           data-gr-ext-installed=""
+    <SegmentViewNode type="page" pagePath="page.tsx">
+      <SegmentTrieNode>
+      <Home>
+        <MongoDBPresentation>
+          ...
+            <AnimatePresence mode="wait" custom={0}>
+              <PresenceChild isPresent={true} initial={undefined} custom={0} presenceAffectsLayout={true} mode="wait" ...>
+                <motion.div custom={0} variants={{...}} initial="enter" animate="center" exit="exit" transition={{...}} ...>
+                  <div className="absolute i..." style={{...}} ref={function useMotionRef.useCallback}>
+                    <SlideTitle>
+                      <div className="relative f...">
+                        <motion.div className="absolute p..." style={{left:"16.1...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "16.19049210035427%"
+-                             left: "89.1876%"
++                             top: "26.04896280649124%"
+-                             top: "17.5867%"
++                             width: 53.28764317263664
+-                             width: "38.8414px"
++                             height: 53.28764317263664
+-                             height: "38.8414px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
                           >
-                            ...
-                              <motion.div className="absolute p..." style={{left:"11.3...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "11.35757923539471%"
--                                   left: "3.67735%"
-+                                   top: "27.81327401593868%"
--                                   top: "1.77478%"
-+                                   width: 55.49055920938795
--                                   width: "57.5804px"
-+                                   height: 55.49055920938795
--                                   height: "57.5804px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                              <motion.div className="absolute p..." style={{left:"4.28...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "4.282682139664551%"
--                                   left: "26.1349%"
-+                                   top: "55.23106714456374%"
--                                   top: "61.3821%"
-+                                   width: 59.8395560946604
--                                   width: "34.8372px"
-+                                   height: 59.8395560946604
--                                   height: "34.8372px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                              <motion.div className="absolute p..." style={{left:"52.1...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "52.12342870068931%"
--                                   left: "61.0946%"
-+                                   top: "2.4673398948233727%"
--                                   top: "53.3641%"
-+                                   width: 47.280455485992846
--                                   width: "50.5986px"
-+                                   height: 47.280455485992846
--                                   height: "50.5986px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                              <motion.div className="absolute p..." style={{left:"71.9...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "71.91346745375247%"
--                                   left: "35.6089%"
-+                                   top: "28.530027274710758%"
--                                   top: "71.7083%"
-+                                   width: 39.55791257755266
--                                   width: "55.7999px"
-+                                   height: 39.55791257755266
--                                   height: "55.7999px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                              <motion.div className="absolute p..." style={{left:"42.1...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "42.17967915511114%"
--                                   left: "86.5811%"
-+                                   top: "13.574362921092186%"
--                                   top: "4.78847%"
-+                                   width: 32.81021164312831
--                                   width: "21.1142px"
-+                                   height: 32.81021164312831
--                                   height: "21.1142px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                              <motion.div className="absolute p..." style={{left:"45.6...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "45.69759020363233%"
--                                   left: "34.248%"
-+                                   top: "82.20751398747656%"
--                                   top: "91.0572%"
-+                                   width: 28.206131794387673
--                                   width: "22.929px"
-+                                   height: 28.206131794387673
--                                   height: "22.929px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                              <motion.div className="absolute p..." style={{left:"89.6...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "89.61101708743891%"
--                                   left: "67.4364%"
-+                                   top: "50.9137159023861%"
--                                   top: "27.9418%"
-+                                   width: 20.48402495977726
--                                   width: "57.4486px"
-+                                   height: 20.48402495977726
--                                   height: "57.4486px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                              <motion.div className="absolute p..." style={{left:"38.0...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "38.01473995945997%"
--                                   left: "19.8641%"
-+                                   top: "49.10582087585268%"
--                                   top: "22.7639%"
-+                                   width: 33.51108213160225
--                                   width: "45.0782px"
-+                                   height: 33.51108213160225
--                                   height: "45.0782px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                            ...
-                  ...
+                        <motion.div className="absolute p..." style={{left:"59.1...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "59.139253626673124%"
+-                             left: "92.7216%"
++                             top: "91.22118848881126%"
+-                             top: "98.213%"
++                             width: 58.4721733789615
+-                             width: "23.3963px"
++                             height: 58.4721733789615
+-                             height: "23.3963px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"51.7...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "51.70736276750224%"
+-                             left: "70.424%"
++                             top: "61.22296212776792%"
+-                             top: "8.45646%"
++                             width: 27.1553049456791
+-                             width: "33.9937px"
++                             height: 27.1553049456791
+-                             height: "33.9937px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"46.2...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "46.20687196652189%"
+-                             left: "4.23631%"
++                             top: "42.547228115168224%"
+-                             top: "28.4566%"
++                             width: 42.64530439511836
+-                             width: "50.6989px"
++                             height: 42.64530439511836
+-                             height: "50.6989px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"38.8...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "38.88958130440163%"
+-                             left: "35.4517%"
++                             top: "71.77876092077533%"
+-                             top: "24.9652%"
++                             width: 59.95123468326271
+-                             width: "30.2182px"
++                             height: 59.95123468326271
+-                             height: "30.2182px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"32.6...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "32.62575722215815%"
+-                             left: "72.0428%"
++                             top: "22.158201440602497%"
+-                             top: "20.649%"
++                             width: 28.36209473609578
+-                             width: "41.8212px"
++                             height: 28.36209473609578
+-                             height: "41.8212px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"34.0...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "34.03321224805688%"
+-                             left: "97.8661%"
++                             top: "24.955751296700345%"
+-                             top: "48.5264%"
++                             width: 47.50488208176025
+-                             width: "21.6043px"
++                             height: 47.50488208176025
+-                             height: "21.6043px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"78.1...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "78.15636201447855%"
+-                             left: "65.8826%"
++                             top: "18.642733748762762%"
+-                             top: "47.1919%"
++                             width: 23.15812087814667
+-                             width: "32.6702px"
++                             height: 23.15812087814667
+-                             height: "32.6702px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        ...
 
-[00:00:33.628] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:33.628] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:33.628] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764691239578}
-[00:12:33.474] Server  LOG      ✓ Compiled in 175ms
-[00:12:37.743] Server  LOG      ✓ Compiled in 139ms
-[00:12:40.482] Server  LOG      ✓ Compiled in 179ms
-[00:12:50.645] Server  LOG      ✓ Compiled in 174ms
-[00:12:55.401] Server  LOG      ✓ Compiled in 123ms
-[00:12:56.684] Server  LOG      ✓ Compiled in 134ms
-[00:12:58.962] Server  LOG      ✓ Compiled in 124ms
-[00:14:28.935] Server  LOG      ✓ Compiled in 117ms
-[00:14:31.746] Server  LOG      ✓ Compiled in 144ms
-[00:16:43.675] Server  LOG      ✓ Compiled in 116ms
-[00:16:46.570] Server  LOG      ✓ Compiled in 117ms
-[00:17:37.322] Server  LOG      ✓ Compiled in 126ms
-[00:17:37.911] Browser ERROR   uncaughtError: ReferenceError: output is not defined
-[00:17:41.194] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:17:41.268] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_8f1c4a24.module.css
-    [next]/internal/font/google/inter_8f1c4a24.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:17:41.270] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-    [next]/internal/font/google/jetbrains_mono_21597d07.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:17:41.279] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
-next/font: warning:
-Failed to download `Inter` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_8f1c4a24.module.css
-    [next]/internal/font/google/inter_8f1c4a24.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:17:41.281] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-next/font: warning:
-Failed to download `JetBrains Mono` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-    [next]/internal/font/google/jetbrains_mono_21597d07.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:17:41.743] Server  LOG      ✓ Compiled in 135ms
-[00:17:47.813] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_8f1c4a24.module.css
-    [next]/internal/font/google/inter_8f1c4a24.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:17:47.814] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-    [next]/internal/font/google/jetbrains_mono_21597d07.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:17:47.815] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
-next/font: warning:
-Failed to download `Inter` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_8f1c4a24.module.css
-    [next]/internal/font/google/inter_8f1c4a24.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:17:47.816] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-next/font: warning:
-Failed to download `JetBrains Mono` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-    [next]/internal/font/google/jetbrains_mono_21597d07.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:17:48.048] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:50.181] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:33:9
-Ecmascript file had an error
-  31 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
-  32 |
-> 33 |   const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
-     |         ^^^^^^^
-  34 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
-  35 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
-  36 |
-
-the name `output1` is defined multiple times
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
-[00:17:50.181] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:33:9
-Ecmascript file had an error
-  31 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
-  32 |
-> 33 |   const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
-     |         ^^^^^^^
-  34 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
-  35 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
-  36 |
-
-the name `output1` is defined multiple times
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
-[00:17:50.181] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:34.718] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:34.718] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:34.718] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764701488346}
+[00:07:28.898] Server  LOG      ✓ Compiled in 75ms
+[00:07:30.229] Server  LOG      ✓ Compiled in 77ms
+[00:07:45.899] Server  LOG      ✓ Compiled in 62ms
+[00:07:59.551] Server  LOG      ✓ Compiled in 46ms
+[00:08:02.699] Server  LOG      ✓ Compiled in 52ms
+[00:08:15.828] Server  LOG      ✓ Compiled in 53ms
+[00:08:18.357] Server  LOG      ✓ Compiled in 53ms
+[00:08:21.254] Server  LOG      ✓ Compiled in 48ms
+[00:08:25.333] Server  LOG      ✓ Compiled in 47ms
+[00:08:41.994] Server  LOG      ✓ Compiled in 51ms
+[00:08:43.012] Server  LOG      ✓ Compiled in 46ms
+[00:08:45.353] Server  LOG      ✓ Compiled in 42ms
+[00:08:58.145] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:58.399] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -464,544 +223,1172 @@ It can also happen if the client has a browser extension installed which messes 
 %s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="/Desktop/M...">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html
-                          lang="en"
-                          className="dark"
--                         suppresshydrationwarning="true"
--                         data-qb-installed="true"
-                        >
-                          <body
-                            className="inter_8f1c4a24-module__nx7jFG__variable jetbrains_mono_21597d07-module__LmI-Gq_..."
--                           data-new-gr-c-s-check-loaded="14.1264.0"
--                           data-gr-ext-installed=""
--                           style={{overflow-x:"hidden",overflow-y:"hidden"}}
+    <SegmentViewNode type="page" pagePath="page.tsx">
+      <SegmentTrieNode>
+      <Home>
+        <MongoDBPresentation>
+          ...
+            <AnimatePresence mode="wait" custom={0}>
+              <PresenceChild isPresent={true} initial={undefined} custom={0} presenceAffectsLayout={true} mode="wait" ...>
+                <motion.div custom={0} variants={{...}} initial="enter" animate="center" exit="exit" transition={{...}} ...>
+                  <div className="absolute i..." style={{...}} ref={function useMotionRef.useCallback}>
+                    <SlideTitle>
+                      <div className="relative f...">
+                        <motion.div className="absolute p..." style={{left:"57.8...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "57.85295463538445%"
+-                             left: "41.616%"
++                             top: "88.04514288355084%"
+-                             top: "25.8787%"
++                             width: 26.24761735117396
+-                             width: "44.4272px"
++                             height: 26.24761735117396
+-                             height: "44.4272px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
                           >
-                            ...
-                              <motion.div className="absolute p..." style={{left:"44.6...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "44.64051131058023%"
--                                   left: "64.6292%"
-+                                   top: "8.380074902371426%"
--                                   top: "92.9314%"
-+                                   width: 43.10615041913542
--                                   width: "57.5451px"
-+                                   height: 43.10615041913542
--                                   height: "57.5451px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                              <motion.div className="absolute p..." style={{left:"35.4...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "35.400595617022226%"
--                                   left: "22.28%"
-+                                   top: "50.22715917668147%"
--                                   top: "67.1085%"
-+                                   width: 22.45711247532484
--                                   width: "43.0858px"
-+                                   height: 22.45711247532484
--                                   height: "43.0858px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                              <motion.div className="absolute p..." style={{left:"89.8...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "89.88338153097395%"
--                                   left: "82.0215%"
-+                                   top: "39.64702972476931%"
--                                   top: "54.942%"
-+                                   width: 55.026494922186565
--                                   width: "32.2558px"
-+                                   height: 55.026494922186565
--                                   height: "32.2558px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                              <motion.div className="absolute p..." style={{left:"4.05...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "4.057094176837528%"
--                                   left: "81.0607%"
-+                                   top: "3.7179886042020494%"
--                                   top: "7.94037%"
-+                                   width: 29.078713543482323
--                                   width: "47.4728px"
-+                                   height: 29.078713543482323
--                                   height: "47.4728px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                              <motion.div className="absolute p..." style={{left:"74.4...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "74.43774792637797%"
--                                   left: "88.3959%"
-+                                   top: "60.10604777231655%"
--                                   top: "12.5565%"
-+                                   width: 46.531656060685734
--                                   width: "58.4992px"
-+                                   height: 46.531656060685734
--                                   height: "58.4992px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                              <motion.div className="absolute p..." style={{left:"92.9...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "92.97782449992017%"
--                                   left: "66.1868%"
-+                                   top: "79.17583507011769%"
--                                   top: "22.4784%"
-+                                   width: 37.513629582470124
--                                   width: "55.6609px"
-+                                   height: 37.513629582470124
--                                   height: "55.6609px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                              <motion.div className="absolute p..." style={{left:"51.9...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "51.969550250676924%"
--                                   left: "67.0318%"
-+                                   top: "68.30715495119591%"
--                                   top: "92.061%"
-+                                   width: 27.296853165915586
--                                   width: "24.5197px"
-+                                   height: 27.296853165915586
--                                   height: "24.5197px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                              <motion.div className="absolute p..." style={{left:"16.9...", ...}} ...>
-                                <div
-                                  className="absolute pointer-events-none"
-                                  style={{
-+                                   left: "16.9939753254423%"
--                                   left: "84.9713%"
-+                                   top: "64.5105925036514%"
--                                   top: "56.5232%"
-+                                   width: 58.702952733014804
--                                   width: "51.1298px"
-+                                   height: 58.702952733014804
--                                   height: "51.1298px"
-+                                   perspective: "500px"
--                                   perspective: "500px"
-+                                   opacity: 0
--                                   opacity: "0"
-+                                   transform: "scale(0)"
--                                   transform: "scale(0)"
-                                  }}
-                                  ref={function useMotionRef.useCallback}
-                                >
-                            ...
-                  ...
+                        <motion.div className="absolute p..." style={{left:"71.1...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "71.1476536927107%"
+-                             left: "51.7226%"
++                             top: "76.45179043724667%"
+-                             top: "63.4278%"
++                             width: 22.269441989654837
+-                             width: "32.2637px"
++                             height: 22.269441989654837
+-                             height: "32.2637px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"97.6...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "97.64037780889153%"
+-                             left: "17.4396%"
++                             top: "54.54090813088621%"
+-                             top: "74.6656%"
++                             width: 58.67082366865673
+-                             width: "31.2685px"
++                             height: 58.67082366865673
+-                             height: "31.2685px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"57.9...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "57.979316214898105%"
+-                             left: "22.3302%"
++                             top: "3.5508601930459904%"
+-                             top: "4.32599%"
++                             width: 54.77079518040749
+-                             width: "53.8736px"
++                             height: 54.77079518040749
+-                             height: "53.8736px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"17.3...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "17.382083166951446%"
+-                             left: "82.8372%"
++                             top: "12.117717238014325%"
+-                             top: "19.1158%"
++                             width: 44.93297898973505
+-                             width: "32.8132px"
++                             height: 44.93297898973505
+-                             height: "32.8132px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"14.2...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "14.262387942383425%"
+-                             left: "1.05129%"
++                             top: "57.49655559381597%"
+-                             top: "99.149%"
++                             width: 47.71366609116939
+-                             width: "46.214px"
++                             height: 47.71366609116939
+-                             height: "46.214px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"6.11...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "6.110537268128158%"
+-                             left: "4.86079%"
++                             top: "70.11507833843204%"
+-                             top: "32.6865%"
++                             width: 55.24804765913269
+-                             width: "34.2028px"
++                             height: 55.24804765913269
+-                             height: "34.2028px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"40.2...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "40.21548667886557%"
+-                             left: "83.0152%"
++                             top: "61.23284174412385%"
+-                             top: "65.9135%"
++                             width: 24.278611565277952
+-                             width: "47.7015px"
++                             height: 24.278611565277952
+-                             height: "47.7015px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        ...
 
-[00:17:50.899] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:17:50.899] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:17:50.899] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764692276310}
-[00:17:50.907] Server  LOG      ✓ Compiled in 133ms
-[00:17:51.914] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:33:9
+[00:08:58.399] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:58.400] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:08:58.400] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764701992016}
+[00:10:35.656] Server  LOG      ✓ Compiled in 44ms
+[00:10:57.195] Server  LOG      ✓ Compiled in 57ms
+[00:11:09.904] Server  LOG      ✓ Compiled in 50ms
+[00:14:49.179] Server  LOG      ✓ Compiled in 52ms
+[00:14:52.725] Server  LOG      ✓ Compiled in 50ms
+[00:15:03.221] Server  LOG      ✓ Compiled in 48ms
+[00:15:09.618] Server  LOG      ✓ Compiled in 50ms
+[00:15:11.763] Server  LOG      ✓ Compiled in 46ms
+[00:15:13.488] Server  LOG      ✓ Compiled in 47ms
+[00:15:34.186] Server  ERROR   C:\Users\Phos10\Projects\MB\.next\dev\server\chunks\ssr\components_cb390f0c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:34.188] Server  ERROR   C:\Users\Phos10\Projects\MB\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:34.236] Server  ERROR   C:\Users\Phos10\Projects\MB\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:34.238] Server  ERROR    ⨯ ReferenceError: SlideStartCluster2 is not defined
+[00:15:34.255] Server  LOG      ✓ Compiled in 84ms
+[00:15:34.471] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:35.470] Browser ERROR   uncaughtError: ReferenceError: SlideStartCluster2 is not defined
+[00:16:52.634] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:52.635] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/mongodb-presentation.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:16:52.635] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:52.760] Server  ERROR   C:\Users\Phos10\Projects\MB\.next\dev\server\chunks\ssr\components_cb390f0c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:52.762] Server  ERROR   C:\Users\Phos10\Projects\MB\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:52.766] Server  ERROR   C:\Users\Phos10\Projects\MB\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:52.768] Server  ERROR    ⨯ ReferenceError: SlideStartCluster2 is not defined
+[00:16:52.783] Server  LOG      ✓ Compiled in 50ms
+[00:16:52.963] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:53.470] Browser ERROR   uncaughtError: ReferenceError: SlideStartCluster2 is not defined
+[00:16:58.781] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:58.781] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/mongodb-presentation.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:16:58.782] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:58.906] Server  ERROR   C:\Users\Phos10\Projects\MB\.next\dev\server\chunks\ssr\components_cb390f0c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:58.907] Server  ERROR   C:\Users\Phos10\Projects\MB\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:58.908] Server  ERROR   C:\Users\Phos10\Projects\MB\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:58.909] Server  ERROR    ⨯ ReferenceError: im is not defined
+[00:16:58.922] Server  LOG      ✓ Compiled in 58ms
+[00:16:59.121] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:59.462] Browser ERROR   uncaughtError: ReferenceError: im is not defined
+[00:17:00.670] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:17:00.670] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/mongodb-presentation.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:17:00.670] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:17:00.799] Server  LOG      ✓ Compiled in 72ms
+[00:17:00.994] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:01.484] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="page.tsx">
+      <SegmentTrieNode>
+      <Home>
+        <MongoDBPresentation>
+          ...
+            <AnimatePresence mode="wait" custom={0}>
+              <PresenceChild isPresent={true} initial={undefined} custom={0} presenceAffectsLayout={true} mode="wait" ...>
+                <motion.div custom={0} variants={{...}} initial="enter" animate="center" exit="exit" transition={{...}} ...>
+                  <div className="absolute i..." style={{...}} ref={function useMotionRef.useCallback}>
+                    <SlideTitle>
+                      <div className="relative f...">
+                        <motion.div className="absolute p..." style={{left:"51.5...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "51.59573541871843%"
+-                             left: "76.5185%"
++                             top: "74.18652321518154%"
+-                             top: "0.98015%"
++                             width: 40.4096113774089
+-                             width: "48.276px"
++                             height: 40.4096113774089
+-                             height: "48.276px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"57.3...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "57.30120979614654%"
+-                             left: "42.6475%"
++                             top: "69.17386654418594%"
+-                             top: "25.3588%"
++                             width: 38.575998941076335
+-                             width: "24.5154px"
++                             height: 38.575998941076335
+-                             height: "24.5154px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"49.7...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "49.72705979168175%"
+-                             left: "38.3943%"
++                             top: "78.34875877795588%"
+-                             top: "97.4404%"
++                             width: 39.83085053427261
+-                             width: "40.5115px"
++                             height: 39.83085053427261
+-                             height: "40.5115px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"27.0...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "27.077726990558126%"
+-                             left: "94.1528%"
++                             top: "9.584575143494355%"
+-                             top: "41.367%"
++                             width: 33.34935204528239
+-                             width: "38.8734px"
++                             height: 33.34935204528239
+-                             height: "38.8734px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"27.4...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "27.431693430087954%"
+-                             left: "55.77%"
++                             top: "67.92287600134988%"
+-                             top: "32.1955%"
++                             width: 59.550176091086655
+-                             width: "21.8964px"
++                             height: 59.550176091086655
+-                             height: "21.8964px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"60.5...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "60.56235041916098%"
+-                             left: "79.0116%"
++                             top: "83.11316718571241%"
+-                             top: "2.11226%"
++                             width: 58.7408672318274
+-                             width: "37.1523px"
++                             height: 58.7408672318274
+-                             height: "37.1523px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"64.8...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "64.8563724720153%"
+-                             left: "25.0783%"
++                             top: "37.469748933944246%"
+-                             top: "28.3797%"
++                             width: 45.05001712051333
+-                             width: "24.5583px"
++                             height: 45.05001712051333
+-                             height: "24.5583px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"97.7...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "97.79341944518075%"
+-                             left: "18.6748%"
++                             top: "2.312317982329881%"
+-                             top: "10.4235%"
++                             width: 27.48543650573079
+-                             width: "43.9103px"
++                             height: 27.48543650573079
+-                             height: "43.9103px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        ...
+
+[00:17:01.484] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:17:01.484] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:17:01.484] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764702474887}
+[00:17:21.586] Server  LOG      ✓ Compiled in 47ms
+[00:17:23.564] Server  LOG      ✓ Compiled in 51ms
+[00:17:27.560] Server  LOG      ✓ Compiled in 45ms
+[00:17:28.859] Server  LOG      ✓ Compiled in 45ms
+[00:17:44.100] Server  LOG      ✓ Compiled in 103ms
+[00:18:19.442] Server  LOG      ✓ Compiled in 51ms
+[00:18:24.811] Server  LOG      ✓ Compiled in 46ms
+[00:18:26.872] Server  LOG      ✓ Compiled in 59ms
+[00:18:27.462] Browser ERROR   ./components/slides/slide-start-cluster2.tsx:14:79
+Parsing ecmascript source code failed
+  12 |   const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
+  13 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+> 14 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`  const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
+     |                                                                               ^^^^^
+  15 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  16 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`  const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
+  17 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/slides/slide-start-cluster2.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/slides/slide-start-cluster2.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:18:28.387] Server  LOG      ✓ Compiled in 53ms
+[00:18:29.471] Browser ERROR   ./components/slides/slide-start-cluster2.tsx:12:9
 Ecmascript file had an error
-  31 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
-  32 |
-> 33 |   const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
+  10 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  11 |
+> 12 |   const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
      |         ^^^^^^^
-  34 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
-  35 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
-  36 |
+  13 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  14 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  15 |   return (
 
 the name `output1` is defined multiple times
 
 Import traces:
   Client Component Browser:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
+    ./components/slides/slide-start-cluster2.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
 
   Client Component SSR:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
-[00:17:53.824] Server  LOG      ✓ Compiled in 115ms
-[00:17:54.910] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:33:9
+    ./components/slides/slide-start-cluster2.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:18:31.533] Server  LOG      ✓ Compiled in 54ms
+[00:18:32.462] Browser ERROR   ./components/slides/slide-start-cluster2.tsx:18:9
 Ecmascript file had an error
-  31 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
-  32 |
-> 33 |   const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
+  16 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  17 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+> 18 |   const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
      |         ^^^^^^^
-  34 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
-  35 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
-  36 |
+  19 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  20 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  21 |   return (
 
 the name `output1` is defined multiple times
 
 Import traces:
   Client Component Browser:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
+    ./components/slides/slide-start-cluster2.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
 
   Client Component SSR:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
-[00:17:54.910] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:29:9
+    ./components/slides/slide-start-cluster2.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:18:36.063] Server  LOG      ✓ Compiled in 48ms
+[00:18:36.464] Browser ERROR   ./components/slides/slide-start-cluster2.tsx:15:9
 Ecmascript file had an error
-  27 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
-  28 |
-> 29 |   const output2 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
+  13 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  14 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+> 15 |   const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
      |         ^^^^^^^
-  30 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
-  31 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
-  32 |
+  16 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  17 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  18 |   return (
 
-the name `output2` is defined multiple times
+the name `output1` is defined multiple times
 
 Import traces:
   Client Component Browser:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
+    ./components/slides/slide-start-cluster2.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
 
   Client Component SSR:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
-[00:17:57.076] Server  LOG      ✓ Compiled in 103ms
-[00:17:57.908] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:29:9
+    ./components/slides/slide-start-cluster2.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:18:38.096] Server  LOG      ✓ Compiled in 44ms
+[00:18:38.469] Browser ERROR   ./components/slides/slide-start-cluster2.tsx:15:9
 Ecmascript file had an error
-  27 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
-  28 |
-> 29 |   const output2 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
+  13 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  14 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+> 15 |   const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
      |         ^^^^^^^
-  30 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
-  31 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
-  32 |
+  16 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  17 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  18 |   return (
 
-the name `output2` is defined multiple times
+the name `output1` is defined multiple times
 
 Import traces:
   Client Component Browser:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
+    ./components/slides/slide-start-cluster2.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
 
   Client Component SSR:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
-[00:17:59.950] Server  LOG      ✓ Compiled in 134ms
-[00:18:00.910] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:29:9
+    ./components/slides/slide-start-cluster2.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:18:41.497] Server  LOG      ✓ Compiled in 48ms
+[00:18:42.462] Browser ERROR   ./components/slides/slide-start-cluster2.tsx:15:9
 Ecmascript file had an error
-  27 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
-  28 |
-> 29 |   const output2 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
+  13 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  14 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+> 15 |   const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
      |         ^^^^^^^
-  30 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
-  31 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
-  32 |
+  16 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  17 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  18 |   return (
 
-the name `output2` is defined multiple times
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
-[00:18:01.831] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_8f1c4a24.module.css
-    [next]/internal/font/google/inter_8f1c4a24.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:18:01.833] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-    [next]/internal/font/google/jetbrains_mono_21597d07.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:18:01.834] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
-next/font: warning:
-Failed to download `Inter` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_8f1c4a24.module.css
-    [next]/internal/font/google/inter_8f1c4a24.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:18:01.835] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-next/font: warning:
-Failed to download `JetBrains Mono` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-    [next]/internal/font/google/jetbrains_mono_21597d07.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:18:08.291] Server  LOG      ✓ Compiled in 133ms
-[00:18:09.600] Server  LOG      ✓ Compiled in 142ms
-[00:18:11.622] Server  LOG      ✓ Compiled in 104ms
-[00:18:13.601] Server  LOG      ✓ Compiled in 120ms
-[00:18:18.113] Server  LOG      ✓ Compiled in 296ms
-[00:18:41.069] Server  LOG      ✓ Compiled in 140ms
-[00:18:43.960] Server  LOG      ✓ Compiled in 126ms
-[00:18:47.216] Server  LOG      ✓ Compiled in 131ms
-[00:18:50.724] Server  LOG      ✓ Compiled in 112ms
-[00:18:52.926] Server  LOG      ✓ Compiled in 128ms
-[00:18:56.738] Server  LOG      ✓ Compiled in 110ms
-[00:18:56.912] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:64:25
-Parsing ecmascript source code failed
-  62 |             <span className="font-semibold">Sortie Attendue</span>
-  63 |           </div>
-> 64 |           <div className">
-     |                         ^^
-  65 |             <CodeBlock code={output1} language="text" title="docker ps" />
-  66 |             <CodeBlock code={output2} language="text" title="docker ps" />
-  67 |             <CodeBlock code={output3} language="text" title="docker ps" />
-
-Unterminated string constant
+the name `output1` is defined multiple times
 
 Import traces:
   Client Component Browser:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
+    ./components/slides/slide-start-cluster2.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
 
   Client Component SSR:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
-[00:18:58.162] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+    ./components/slides/slide-start-cluster2.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:18:52.224] Server  LOG      ✓ Compiled in 54ms
+[00:19:08.287] Server  LOG      ✓ Compiled in 56ms
+[00:19:20.551] Server  LOG      ✓ Compiled in 49ms
+[00:19:23.181] Server  LOG      ✓ Compiled in 60ms
+[00:19:24.721] Server  LOG      ✓ Compiled in 47ms
+[00:19:33.344] Server  LOG      ✓ Compiled in 58ms
+[00:19:39.457] Server  LOG      ✓ Compiled in 44ms
+[00:19:41.715] Server  LOG      ✓ Compiled in 49ms
+[00:19:45.560] Server  LOG      ✓ Compiled in 43ms
+[00:19:50.330] Server  LOG      ✓ Compiled in 47ms
+[00:19:52.800] Server  LOG      ✓ Compiled in 42ms
+[00:20:07.005] Server  LOG      ✓ Compiled in 48ms
+[00:20:09.222] Server  LOG      ✓ Compiled in 46ms
+[00:20:12.623] Server  LOG      ✓ Compiled in 50ms
+[00:20:15.037] Server  LOG      ✓ Compiled in 62ms
+[00:20:16.043] Server  LOG      ✓ Compiled in 46ms
+[00:20:18.445] Server  LOG      ✓ Compiled in 44ms
+[00:20:27.630] Server  LOG      ✓ Compiled in 44ms
+[00:20:30.891] Server  LOG      ✓ Compiled in 45ms
+[00:20:35.259] Server  LOG      ✓ Compiled in 46ms
+[00:20:38.687] Server  LOG      ✓ Compiled in 45ms
+[00:20:43.035] Server  LOG      ✓ Compiled in 43ms
+[00:21:01.123] Server  LOG      ✓ Compiled in 46ms
+[00:21:04.036] Server  LOG      ✓ Compiled in 46ms
+[00:21:08.277] Server  LOG      ✓ Compiled in 56ms
+[00:21:14.717] Server  LOG      ✓ Compiled in 50ms
+[00:21:21.647] Server  LOG      ✓ Compiled in 55ms
+[00:21:22.465] Browser ERROR   ./components/slides/slide-start-cluster2.tsx:22:9
+Ecmascript file had an error
+  20 | 5908f90167bb   mongo:6.0   0.0.0.0:27019->27019/tcp,   rs3_s3      
+  21 | a8a45e1d87ba   mongo:6.0   0.0.0.0:27017->27017/tcp,   rs1_s2`
+> 22 |   const output1 = `
+     |         ^^^^^^^
+  23 | CONTAINER ID   IMAGE       PORTS                       NAMES
+  24 | 89b1c9bbb854   mongo:6.0   0.0.0.0:27020->27020/tcp,   mongos      
+  25 | 646a9746b855   mongo:6.0   0.0.0.0:26050->26050/tcp,   config3     
 
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_8f1c4a24.module.css
-    [next]/internal/font/google/inter_8f1c4a24.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:18:58.163] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-    [next]/internal/font/google/jetbrains_mono_21597d07.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:18:58.164] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
-next/font: warning:
-Failed to download `Inter` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_8f1c4a24.module.css
-    [next]/internal/font/google/inter_8f1c4a24.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:18:58.166] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-next/font: warning:
-Failed to download `JetBrains Mono` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-    [next]/internal/font/google/jetbrains_mono_21597d07.js
-    ./Desktop/MB/app/layout.tsx
-
-
-[00:19:02.601] Server  LOG      ✓ Compiled in 546ms
-[00:19:07.699] Server  LOG      ✓ Compiled in 120ms
-[00:19:13.047] Server  LOG      ✓ Compiled in 130ms
-[00:19:14.857] Server  LOG      ✓ Compiled in 129ms
-[00:19:16.564] Server  LOG      ✓ Compiled in 101ms
-[00:19:18.570] Server  LOG      ✓ Compiled in 113ms
-[00:19:18.902] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:65:35
-Parsing ecmascript source code failed
-  63 |           </div>
-  64 |           <div className="gap-5 ">
-> 65 |             <CodeBlock className= code={output1} language="text" title="docker ps" />
-     |                                   ^^^^
-  66 |             <CodeBlock code={output2} language="text" title="docker ps" />
-  67 |             <CodeBlock code={output3} language="text" title="docker ps" />
-  68 |             <CodeBlock code={output4} language="text" title="docker ps" />
-
-Expected '</', got 'code'
+the name `output1` is defined multiple times
 
 Import traces:
   Client Component Browser:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
+    ./components/slides/slide-start-cluster2.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
 
   Client Component SSR:
-    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
-    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
-    ./Desktop/MB/app/page.tsx [Server Component]
-[00:19:20.286] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+    ./components/slides/slide-start-cluster2.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:21:23.862] Server  LOG      ✓ Compiled in 46ms
+[00:21:24.466] Browser ERROR   ./components/slides/slide-start-cluster2.tsx:23:9
+Ecmascript file had an error
+  21 | 5908f90167bb   mongo:6.0   0.0.0.0:27019->27019/tcp,   rs3_s3      
+  22 | a8a45e1d87ba   mongo:6.0   0.0.0.0:27017->27017/tcp,   rs1_s2`
+> 23 |   const output1 = `
+     |         ^^^^^^^
+  24 | CONTAINER ID   IMAGE       PORTS                       NAMES
+  25 | 89b1c9bbb854   mongo:6.0   0.0.0.0:27020->27020/tcp,   mongos      
+  26 | 646a9746b855   mongo:6.0   0.0.0.0:26050->26050/tcp,   config3     
 
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_8f1c4a24.module.css
-    [next]/internal/font/google/inter_8f1c4a24.js
-    ./Desktop/MB/app/layout.tsx
+the name `output1` is defined multiple times
 
+Import traces:
+  Client Component Browser:
+    ./components/slides/slide-start-cluster2.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
 
-[00:19:20.287] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+  Client Component SSR:
+    ./components/slides/slide-start-cluster2.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:21:25.025] Server  LOG      ✓ Compiled in 49ms
+[00:21:25.471] Browser ERROR   ./components/slides/slide-start-cluster2.tsx:24:9
+Ecmascript file had an error
+  22 | a8a45e1d87ba   mongo:6.0   0.0.0.0:27017->27017/tcp,   rs1_s2`
+  23 |
+> 24 |   const output1 = `
+     |         ^^^^^^^
+  25 | CONTAINER ID   IMAGE       PORTS                       NAMES
+  26 | 89b1c9bbb854   mongo:6.0   0.0.0.0:27020->27020/tcp,   mongos      
+  27 | 646a9746b855   mongo:6.0   0.0.0.0:26050->26050/tcp,   config3     
 
-Import trace:
-  Server Component:
-    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-    [next]/internal/font/google/jetbrains_mono_21597d07.js
-    ./Desktop/MB/app/layout.tsx
+the name `output1` is defined multiple times
 
+Import traces:
+  Client Component Browser:
+    ./components/slides/slide-start-cluster2.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
 
-[00:19:20.288] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
-next/font: warning:
-Failed to download `Inter` from Google Fonts. Using fallback font instead.
+  Client Component SSR:
+    ./components/slides/slide-start-cluster2.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:21:26.634] Server  LOG      ✓ Compiled in 45ms
+[00:21:27.471] Browser ERROR   ./components/slides/slide-start-cluster2.tsx:24:9
+Ecmascript file had an error
+  22 | a8a45e1d87ba   mongo:6.0   0.0.0.0:27017->27017/tcp,   rs1_s2`
+  23 |
+> 24 |   const output1 = `
+     |         ^^^^^^^
+  25 | CONTAINER ID   IMAGE       PORTS                       NAMES
+  26 | 89b1c9bbb854   mongo:6.0   0.0.0.0:27020->27020/tcp,   mongos      
+  27 | 646a9746b855   mongo:6.0   0.0.0.0:26050->26050/tcp,   config3     
 
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_8f1c4a24.module.css
-    [next]/internal/font/google/inter_8f1c4a24.js
-    ./Desktop/MB/app/layout.tsx
+the name `output1` is defined multiple times
 
+Import traces:
+  Client Component Browser:
+    ./components/slides/slide-start-cluster2.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Client Component Browser]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
 
-[00:19:20.289] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-next/font: warning:
-Failed to download `JetBrains Mono` from Google Fonts. Using fallback font instead.
+  Client Component SSR:
+    ./components/slides/slide-start-cluster2.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Client Component SSR]
+    ./components/mongodb-presentation.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:21:49.473] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:49.473] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
-Import trace:
-  Server Component:
-    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
-    [next]/internal/font/google/jetbrains_mono_21597d07.js
-    ./Desktop/MB/app/layout.tsx
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
 
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-[00:19:22.970] Server  LOG      ✓ Compiled in 123ms
-[00:19:30.493] Server  LOG      ✓ Compiled in 113ms
-[00:19:33.037] Server  LOG      ✓ Compiled in 636ms
-[00:19:36.447] Server  LOG      ✓ Compiled in 110ms
-[00:19:38.698] Server  LOG      ✓ Compiled in 91ms
-[00:20:04.286] Server  LOG      ✓ Compiled in 113ms
-[00:20:12.080] Server  LOG      ✓ Compiled in 117ms
-[00:20:13.252] Server  LOG      ✓ Compiled in 106ms
-[00:20:19.875] Server  LOG      ✓ Compiled in 260ms
-[00:20:31.628] Server  LOG      ✓ Compiled in 138ms
-[00:20:36.902] Server  LOG      ✓ Compiled in 122ms
-[00:22:58.135] Server  LOG      ✓ Compiled in 119ms
-[00:27:45.314] Server  LOG      ✓ Compiled in 133ms
-[00:27:53.559] Server  LOG      ✓ Compiled in 145ms
-[01:15:10.766] Server  LOG      ✓ Compiled in 494ms
-[01:15:12.263] Server  LOG      ✓ Compiled in 195ms
-[01:15:14.073] Server  LOG      ✓ Compiled in 145ms
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="page.tsx">
+      <SegmentTrieNode>
+      <Home>
+        <MongoDBPresentation>
+          ...
+            <AnimatePresence mode="wait" custom={0}>
+              <PresenceChild isPresent={true} initial={undefined} custom={0} presenceAffectsLayout={true} mode="wait" ...>
+                <motion.div custom={0} variants={{...}} initial="enter" animate="center" exit="exit" transition={{...}} ...>
+                  <div className="absolute i..." style={{...}} ref={function useMotionRef.useCallback}>
+                    <SlideTitle>
+                      <div className="relative f...">
+                        <motion.div className="absolute p..." style={{left:"87.7...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "87.71667656257998%"
+-                             left: "99.145%"
++                             top: "28.954393889489072%"
+-                             top: "82.8291%"
++                             width: 49.62784333268076
+-                             width: "26.8873px"
++                             height: 49.62784333268076
+-                             height: "26.8873px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"73.2...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "73.24738644354076%"
+-                             left: "25.5213%"
++                             top: "28.62247227399779%"
+-                             top: "37.3934%"
++                             width: 56.38370562563197
+-                             width: "51.6347px"
++                             height: 56.38370562563197
+-                             height: "51.6347px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"22.1...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "22.146116011745043%"
+-                             left: "0.213335%"
++                             top: "5.153584753877139%"
+-                             top: "42.0572%"
++                             width: 48.978631737869705
+-                             width: "46.9734px"
++                             height: 48.978631737869705
+-                             height: "46.9734px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"43.1...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "43.1395277929152%"
+-                             left: "19.5244%"
++                             top: "58.45693468315568%"
+-                             top: "35.2439%"
++                             width: 42.88558203250343
+-                             width: "25.7217px"
++                             height: 42.88558203250343
+-                             height: "25.7217px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"13.0...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "13.095870490687112%"
+-                             left: "74.6536%"
++                             top: "4.634215282983245%"
+-                             top: "91.6481%"
++                             width: 58.57263022152626
+-                             width: "24.298px"
++                             height: 58.57263022152626
+-                             height: "24.298px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"51.6...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "51.655917456358225%"
+-                             left: "88.4127%"
++                             top: "52.22599841374305%"
+-                             top: "30.5024%"
++                             width: 47.119153367814846
+-                             width: "30.2776px"
++                             height: 47.119153367814846
+-                             height: "30.2776px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"53.8...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "53.81273819203655%"
+-                             left: "30.0728%"
++                             top: "62.877589123679%"
+-                             top: "73.9344%"
++                             width: 50.5662389596133
+-                             width: "53.0502px"
++                             height: 50.5662389596133
+-                             height: "53.0502px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"71.5...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "71.54043665683785%"
+-                             left: "52.2979%"
++                             top: "58.71103821038073%"
+-                             top: "81.6547%"
++                             width: 58.75383305233954
+-                             width: "27.9737px"
++                             height: 58.75383305233954
+-                             height: "27.9737px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        ...
+
+[00:21:49.612] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:21:49.612] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:21:49.612] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764702763237}
+[00:22:34.080] Server  LOG      ✓ Compiled in 48ms
+[00:22:36.205] Server  LOG      ✓ Compiled in 48ms
+[00:22:39.434] Server  LOG      ✓ Compiled in 49ms
+[00:23:00.293] Server  LOG      ✓ Compiled in 52ms
+[00:23:05.885] Server  LOG      ✓ Compiled in 51ms
+[00:23:07.635] Server  LOG      ✓ Compiled in 51ms
+[00:23:13.443] Server  LOG      ✓ Compiled in 67ms
+[00:23:48.556] Server  LOG      ✓ Compiled in 53ms
+[00:23:52.289] Server  LOG      ✓ Compiled in 65ms
+[00:23:53.568] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:53.780] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="page.tsx">
+      <SegmentTrieNode>
+      <Home>
+        <MongoDBPresentation>
+          ...
+            <AnimatePresence mode="wait" custom={0}>
+              <PresenceChild isPresent={true} initial={undefined} custom={0} presenceAffectsLayout={true} mode="wait" ...>
+                <motion.div custom={0} variants={{...}} initial="enter" animate="center" exit="exit" transition={{...}} ...>
+                  <div className="absolute i..." style={{...}} ref={function useMotionRef.useCallback}>
+                    <SlideTitle>
+                      <div className="relative f...">
+                        <motion.div className="absolute p..." style={{left:"1.17...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "1.1772176236695908%"
+-                             left: "21.1866%"
++                             top: "53.43853730186957%"
+-                             top: "18.8955%"
++                             width: 22.072298648853995
+-                             width: "38.0855px"
++                             height: 22.072298648853995
+-                             height: "38.0855px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"27.7...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "27.70829870146112%"
+-                             left: "11.746%"
++                             top: "88.6449906999988%"
+-                             top: "82.0562%"
++                             width: 22.75512556786619
+-                             width: "27.7308px"
++                             height: 22.75512556786619
+-                             height: "27.7308px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"48.1...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "48.16455524190503%"
+-                             left: "44.0913%"
++                             top: "2.4500587018967956%"
+-                             top: "21.8746%"
++                             width: 30.54220315889841
+-                             width: "34.866px"
++                             height: 30.54220315889841
+-                             height: "34.866px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"68.2...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "68.29859893222604%"
+-                             left: "69.0956%"
++                             top: "6.442805036065247%"
+-                             top: "93.021%"
++                             width: 20.3765522839143
+-                             width: "35.5051px"
++                             height: 20.3765522839143
+-                             height: "35.5051px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"62.8...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "62.80898031610137%"
+-                             left: "1.20013%"
++                             top: "77.83510430072347%"
+-                             top: "5.99614%"
++                             width: 36.979847161821404
+-                             width: "44.5188px"
++                             height: 36.979847161821404
+-                             height: "44.5188px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"85.6...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "85.64466394578974%"
+-                             left: "58.3256%"
++                             top: "20.24001442869714%"
+-                             top: "36.4332%"
++                             width: 38.719308960547714
+-                             width: "31.6658px"
++                             height: 38.719308960547714
+-                             height: "31.6658px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"75.1...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "75.19796326455479%"
+-                             left: "61.9641%"
++                             top: "86.43102848342045%"
+-                             top: "14.5445%"
++                             width: 36.54124953085011
+-                             width: "28.5366px"
++                             height: 36.54124953085011
+-                             height: "28.5366px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"89.6...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "89.61201156326403%"
+-                             left: "45.4532%"
++                             top: "75.1742320194781%"
+-                             top: "83.9918%"
++                             width: 48.68633543240674
+-                             width: "36.5574px"
++                             height: 48.68633543240674
+-                             height: "36.5574px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        ...
+
+[00:23:53.780] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:23:53.780] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:23:53.780] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764702887398}
+[00:24:05.176] Server  LOG      ✓ Compiled in 74ms
+[00:24:34.355] Server  LOG      ✓ Compiled in 77ms
+[00:25:05.462] Server  LOG      ✓ Compiled in 54ms
+[00:25:07.989] Server  LOG      ✓ Compiled in 45ms
+[00:25:09.227] Server  LOG      ✓ Compiled in 47ms
+[00:25:14.202] Server  LOG      ✓ Compiled in 45ms
+[00:25:35.265] Server  LOG      ✓ Compiled in 50ms
+[00:25:36.693] Server  LOG      ✓ Compiled in 71ms
+[00:25:39.435] Server  LOG      ✓ Compiled in 44ms
+[00:25:42.363] Server  LOG      ✓ Compiled in 48ms
+[00:25:55.451] Server  LOG      ✓ Compiled in 46ms
+[00:25:59.411] Server  LOG      ✓ Compiled in 47ms
+[00:26:01.398] Server  LOG      ✓ Compiled in 47ms
+[00:26:03.601] Server  LOG      ✓ Compiled in 50ms
+[00:26:10.275] Server  LOG      ✓ Compiled in 48ms
+[00:26:12.372] Server  LOG      ✓ Compiled in 45ms
+[00:26:14.047] Server  LOG      ✓ Compiled in 47ms
+[00:26:26.197] Server  LOG      ✓ Compiled in 47ms
+[00:27:17.919] Server  LOG      ✓ Compiled in 49ms
+[00:28:54.775] Server  LOG      ✓ Compiled in 50ms
+[00:28:56.276] Server  LOG      ✓ Compiled in 63ms
+[00:30:09.911] Server  LOG      ✓ Compiled in 47ms
+[00:30:12.978] Server  LOG      ✓ Compiled in 45ms
+[00:30:14.653] Server  LOG      ✓ Compiled in 49ms
+[00:30:19.469] Server  LOG      ✓ Compiled in 51ms
+[00:30:21.382] Server  LOG      ✓ Compiled in 45ms
+[00:30:33.690] Server  LOG      ✓ Compiled in 45ms
+[00:30:37.147] Server  LOG      ✓ Compiled in 45ms
+[00:30:38.820] Server  LOG      ✓ Compiled in 44ms
+[00:30:48.466] Server  LOG      ✓ Compiled in 43ms
+[00:31:15.162] Server  LOG      ✓ Compiled in 45ms
+[00:31:20.339] Server  LOG      ✓ Compiled in 48ms
+[00:31:21.643] Server  LOG      ✓ Compiled in 53ms
+[00:31:25.086] Server  LOG      ✓ Compiled in 45ms
+[00:31:29.109] Server  LOG      ✓ Compiled in 48ms
+[00:31:31.295] Server  LOG      ✓ Compiled in 44ms
+[00:31:36.635] Server  LOG      ✓ Compiled in 43ms
+[00:31:51.980] Server  LOG      ✓ Compiled in 50ms
+[00:31:54.531] Server  LOG      ✓ Compiled in 47ms
+[00:31:57.645] Server  LOG      ✓ Compiled in 50ms
+[00:32:02.967] Server  LOG      ✓ Compiled in 60ms
+[00:32:03.976] Server  LOG      ✓ Compiled in 44ms
+[00:32:09.777] Server  LOG      ✓ Compiled in 45ms
+[00:32:15.088] Server  LOG      ✓ Compiled in 50ms
+[00:32:22.984] Server  LOG      ✓ Compiled in 46ms
+[00:32:27.320] Server  LOG      ✓ Compiled in 47ms
+[00:32:35.311] Server  LOG      ✓ Compiled in 49ms
+[00:36:30.569] Server  LOG      ✓ Compiled in 49ms
+[00:39:55.793] Server  LOG      ✓ Compiled in 52ms
+[00:39:58.900] Server  LOG      ✓ Compiled in 52ms
+[00:40:07.204] Server  LOG      ✓ Compiled in 62ms
+[00:40:09.695] Server  LOG      ✓ Compiled in 52ms
+[00:40:13.321] Server  LOG      ✓ Compiled in 50ms
+[01:07:14.603] Server  LOG      ✓ Compiled in 71ms
+[01:07:21.430] Server  LOG      ✓ Compiled in 70ms
+[01:07:30.292] Server  LOG      ✓ Compiled in 66ms
+[01:17:12.401] Server  LOG      ✓ Compiled in 56ms
+[01:17:16.070] Server  LOG      ✓ Compiled in 52ms
+[01:17:18.800] Server  LOG      ✓ Compiled in 49ms

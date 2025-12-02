@@ -9,8 +9,10 @@ export function SlideEnableSharding() {
 sh.enableSharding("transport")
 
 # Sharder la collection lines avec un hash sur le champ city
+sh.shardCollection("transport.buses", { city: "hashed" })
 sh.shardCollection("transport.lines", { city: "hashed" })
-
+sh.shardCollection("transport.stops", { city: "hashed" })
+sh.shardCollection("transport.tickets", { city: "hashed" })
 # Vérifier le statut du sharding
 use transport
 db.lines.getShardDistribution()`

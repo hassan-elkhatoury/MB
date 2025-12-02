@@ -11,6 +11,7 @@ import { SlideDocker } from "./slides/slide-docker"
 import { SlideFolder } from "./slides/slide-folder"
 import { SlideCompose } from "./slides/slide-compose"
 import { SlideStartCluster } from "./slides/slide-start-cluster"
+import { SlideStartCluster2 } from "./slides/slide-start-cluster2"
 import { SlideInitReplica } from "./slides/slide-init-replica"
 import { SlideAddShards } from "./slides/slide-add-shards"
 import { SlideEnableSharding } from "./slides/slide-enable-sharding"
@@ -31,17 +32,18 @@ const slides = [
   { id: 5, title: "Structure Dossiers", component: SlideFolder },
   { id: 6, title: "Docker Compose", component: SlideCompose },
   { id: 7, title: "Démarrage Cluster", component: SlideStartCluster },
-  { id: 8, title: "Init Replica Sets", component: SlideInitReplica },
-  { id: 9, title: "Ajout Shards", component: SlideAddShards },
-  { id: 10, title: "Activer Sharding", component: SlideEnableSharding },
-  { id: 11, title: "Insertion & Test", component: SlideInsertTest },
-  { id: 12, title: "Captures d'écran", component: SlideScreenshots },
-  { id: 13, title: "Détails des Tests", component: SlideTestDetails },
-  { id: 14, title: "Failover", component: SlideFailover },
-  { id: 15, title: "Vérification", component: SlideVerification },
-  { id: 16, title: "Checklist", component: SlideChecklist },
-  { id: 17, title: "Fin", component: SlideEnd },
-  { id: 18, title: "Merci", component: SlideThankYou },
+  { id: 8, title: "Démarrage Cluster", component: SlideStartCluster2 },
+  { id: 9, title: "Init Replica Sets", component: SlideInitReplica },
+  { id: 10, title: "Ajout Shards", component: SlideAddShards },
+  { id: 11, title: "Activer Sharding", component: SlideEnableSharding },
+  { id: 12, title: "Insertion & Test", component: SlideInsertTest },
+  { id: 13, title: "Captures d'écran", component: SlideScreenshots },
+  { id: 14, title: "Détails des Tests", component: SlideTestDetails },
+  { id: 15, title: "Failover", component: SlideFailover },
+  { id: 16, title: "Vérification", component: SlideVerification },
+  { id: 17, title: "Checklist", component: SlideChecklist },
+  { id: 18, title: "Fin", component: SlideEnd },
+  { id: 19, title: "Merci", component: SlideThankYou },
 ]
 
 export function MongoDBPresentation() {
@@ -228,7 +230,7 @@ export function MongoDBPresentation() {
       </div>
 
       <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-40 flex items-center gap-4">
-        {currentSlide !== 12 && (
+        {currentSlide !== 13 && (
           <button
             onClick={prevSlide}
             disabled={currentSlide === 0}
@@ -239,7 +241,7 @@ export function MongoDBPresentation() {
         )}
 
         <div className="flex gap-2">
-          {currentSlide !== 12 && slides.map((_, index) => (
+          {currentSlide !== 13 && slides.map((_, index) => (
             <button
               key={index}
               onClick={() => goToSlide(index)}
@@ -250,7 +252,7 @@ export function MongoDBPresentation() {
           ))}
         </div>
            
-        {currentSlide !== 12 && (
+        {currentSlide !== 13 && (
         <button
           onClick={nextSlide}
           disabled={currentSlide === slides.length - 1}
