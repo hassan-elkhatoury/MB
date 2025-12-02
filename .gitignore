@@ -106,3 +106,5 @@ storybook-static
 
 # Sentry
 .sentryclirc
+
+.next
