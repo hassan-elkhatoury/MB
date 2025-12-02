@@ -21,23 +21,18 @@ export function SlideScreenshots() {
     11: "SECONDARY laptop4:27018 - syncSource: laptop2:27018",
     12: "docker start rs2_p - Redémarrage du primary",
     13: "Connexion à laptop3:27018 - maintenant SECONDARY",
-    14: "Lecture sur secondary - Document Tetouan Line 40",
-    15: "Erreur NotWritablePrimary - Impossible d'écrire sur secondary",
-    16: "Connexion au nouveau PRIMARY laptop2:27018",
-    17: "Insertion réussie sur primary - Document de test sync",
-    18: "Vérification sur secondary - Document répliqué avec succès",
-    19: "Insertion après arrêt du routeur mongos",
-    20: "État membre non accessible - heartbeat timeout",
+    14: "Insertion d'une line a partir du mongo shell",
+    15: "affichage de la nouvelle line sur le shard ciblé",
   }
 
-  const screenshots = Array.from({ length: 20 }, (_, i) => ({
+  const screenshots = Array.from({ length: 15 }, (_, i) => ({
     id: i + 1,
     src: `/assets/${i + 1}.png?height=300&width=500&query=MongoDB terminal screenshot ${i + 1} cluster testing failover replication`,
     caption: captions[i + 1] || `Capture d'écran ${i + 1}`,
   }))
 
   const nextImage = () => {
-    if (selectedImage !== null && selectedImage < 19) setSelectedImage(selectedImage + 1)
+    if (selectedImage !== null && selectedImage < 14) setSelectedImage(selectedImage + 1)
   }
 
   const prevImage = () => {
@@ -45,7 +40,7 @@ export function SlideScreenshots() {
   }
 
   return (
-    <div className="w-full max-w-6xl mx-auto h-full overflow-hidden flex flex-col">
+    <div className="w-full max-w-6xl mx-auto overflow-hidden flex flex-col">
       <motion.div
         className="flex items-center justify-center gap-4 mb-4"
         initial={{ opacity: 0, y: -30 }}

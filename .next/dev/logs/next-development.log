@@ -1392,3 +1392,430 @@ It can also happen if the client has a browser extension installed which messes 
 [01:17:12.401] Server  LOG      ✓ Compiled in 56ms
 [01:17:16.070] Server  LOG      ✓ Compiled in 52ms
 [01:17:18.800] Server  LOG      ✓ Compiled in 49ms
+[02:18:59.773] Server  LOG      ✓ Compiled in 114ms
+[02:19:02.077] Server  LOG      ✓ Compiled in 62ms
+[02:19:04.150] Server  LOG      ✓ Compiled in 71ms
+[02:19:09.273] Server  LOG      ✓ Compiled in 47ms
+[02:19:10.417] Server  LOG      ✓ Compiled in 72ms
+[02:19:44.234] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:19:44.439] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="page.tsx">
+      <SegmentTrieNode>
+      <Home>
+        <MongoDBPresentation>
+          ...
+            <AnimatePresence mode="wait" custom={0}>
+              <PresenceChild isPresent={true} initial={undefined} custom={0} presenceAffectsLayout={true} mode="wait" ...>
+                <motion.div custom={0} variants={{...}} initial="enter" animate="center" exit="exit" transition={{...}} ...>
+                  <div className="absolute i..." style={{...}} ref={function useMotionRef.useCallback}>
+                    <SlideTitle>
+                      <div className="relative f...">
+                        <motion.div className="absolute p..." style={{left:"59.7...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "59.709419000061615%"
+-                             left: "4.97759%"
++                             top: "44.7285242298587%"
+-                             top: "53.6161%"
++                             width: 41.207043787255984
+-                             width: "54.7652px"
++                             height: 41.207043787255984
+-                             height: "54.7652px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"95.4...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "95.41102899654315%"
+-                             left: "9.13645%"
++                             top: "50.12723141824145%"
+-                             top: "53.0066%"
++                             width: 52.276190417071234
+-                             width: "44.5851px"
++                             height: 52.276190417071234
+-                             height: "44.5851px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"85.5...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "85.53167815284608%"
+-                             left: "66.2109%"
++                             top: "79.79788410846925%"
+-                             top: "44.1504%"
++                             width: 50.585526619180925
+-                             width: "39.5981px"
++                             height: 50.585526619180925
+-                             height: "39.5981px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"45.1...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "45.17260905970727%"
+-                             left: "41.0356%"
++                             top: "62.32924851232141%"
+-                             top: "14.6526%"
++                             width: 22.615723545433557
+-                             width: "43.1739px"
++                             height: 22.615723545433557
+-                             height: "43.1739px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"35.6...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "35.67054888380912%"
+-                             left: "64.3289%"
++                             top: "31.48292686450842%"
+-                             top: "8.82441%"
++                             width: 24.12113222597284
+-                             width: "26.71px"
++                             height: 24.12113222597284
+-                             height: "26.71px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"92.9...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "92.99451506638655%"
+-                             left: "80.3706%"
++                             top: "44.09319108266521%"
+-                             top: "6.69151%"
++                             width: 33.10503865003277
+-                             width: "46.2214px"
++                             height: 33.10503865003277
+-                             height: "46.2214px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"72.9...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "72.96597963946654%"
+-                             left: "25.2465%"
++                             top: "83.21046112716787%"
+-                             top: "69.2224%"
++                             width: 33.700276471248976
+-                             width: "27.1806px"
++                             height: 33.700276471248976
+-                             height: "27.1806px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"11.7...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "11.744811165169866%"
+-                             left: "8.87692%"
++                             top: "89.16776622057895%"
+-                             top: "87.0995%"
++                             width: 38.90851265446173
+-                             width: "56.704px"
++                             height: 38.90851265446173
+-                             height: "56.704px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        ...
+
+[02:19:44.439] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:19:44.439] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:19:44.439] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764709838066}
+[02:19:55.290] Server  LOG      ✓ Compiled in 76ms
+[02:19:57.411] Server  LOG      ✓ Compiled in 50ms
+[02:19:59.634] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:19:59.808] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="page.tsx">
+      <SegmentTrieNode>
+      <Home>
+        <MongoDBPresentation>
+          ...
+            <AnimatePresence mode="wait" custom={0}>
+              <PresenceChild isPresent={true} initial={undefined} custom={0} presenceAffectsLayout={true} mode="wait" ...>
+                <motion.div custom={0} variants={{...}} initial="enter" animate="center" exit="exit" transition={{...}} ...>
+                  <div className="absolute i..." style={{...}} ref={function useMotionRef.useCallback}>
+                    <SlideTitle>
+                      <div className="relative f...">
+                        <motion.div className="absolute p..." style={{left:"81.8...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "81.87867581722035%"
+-                             left: "75.6362%"
++                             top: "8.200222637930032%"
+-                             top: "53.2368%"
++                             width: 59.16056274922641
+-                             width: "45.2904px"
++                             height: 59.16056274922641
+-                             height: "45.2904px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"92.3...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "92.38138043326501%"
+-                             left: "9.76831%"
++                             top: "5.511287400460896%"
+-                             top: "89.8282%"
++                             width: 37.614376896525314
+-                             width: "29.0396px"
++                             height: 37.614376896525314
+-                             height: "29.0396px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"71.1...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "71.14966043015978%"
+-                             left: "53.924%"
++                             top: "29.48621972496237%"
+-                             top: "68.5476%"
++                             width: 24.490985309733887
+-                             width: "36.2346px"
++                             height: 24.490985309733887
+-                             height: "36.2346px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"87.3...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "87.3544743774281%"
+-                             left: "89.5046%"
++                             top: "29.492323559978427%"
+-                             top: "43.9214%"
++                             width: 52.879444478117684
+-                             width: "20.1416px"
++                             height: 52.879444478117684
+-                             height: "20.1416px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"74.0...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "74.053253350612%"
+-                             left: "99.325%"
++                             top: "22.660516879623504%"
+-                             top: "55.4848%"
++                             width: 58.87982128695075
+-                             width: "44.3264px"
++                             height: 58.87982128695075
+-                             height: "44.3264px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"52.9...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "52.94942046495969%"
+-                             left: "20.3788%"
++                             top: "34.95274758568803%"
+-                             top: "61.8842%"
++                             width: 23.51215259262508
+-                             width: "59.2487px"
++                             height: 23.51215259262508
+-                             height: "59.2487px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"48.8...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "48.81064331157637%"
+-                             left: "21.275%"
++                             top: "57.8161219297224%"
+-                             top: "14.6334%"
++                             width: 52.13694165195497
+-                             width: "21.4984px"
++                             height: 52.13694165195497
+-                             height: "21.4984px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute p..." style={{left:"4.12...", ...}} initial={{opacity:0,scale:0}} ...>
+                          <div
+                            className="absolute pointer-events-none"
+                            style={{
++                             left: "4.124696716235976%"
+-                             left: "6.43298%"
++                             top: "43.909925779946455%"
+-                             top: "24.8948%"
++                             width: 50.95925682722687
+-                             width: "45.2572px"
++                             height: 50.95925682722687
+-                             height: "45.2572px"
++                             perspective: "500px"
+-                             perspective: "500px"
++                             opacity: 0
+-                             opacity: "0"
++                             transform: "scale(0)"
+-                             transform: "scale(0)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        ...
+
+[02:19:59.808] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:19:59.808] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:19:59.808] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764709853430}
+[02:20:13.793] Server  LOG      ✓ Compiled in 51ms
+[02:20:26.974] Server  LOG      ✓ Compiled in 88ms
+[02:20:35.050] Server  LOG      ✓ Compiled in 51ms
+[02:21:09.034] Server  LOG      ✓ Compiled in 55ms
+[02:21:11.726] Server  LOG      ✓ Compiled in 52ms
+[02:21:13.120] Server  LOG      ✓ Compiled in 51ms
+[02:21:14.977] Server  LOG      ✓ Compiled in 58ms
+[02:21:17.466] Server  LOG      ✓ Compiled in 50ms
+[02:21:23.144] Server  LOG      ✓ Compiled in 58ms
+[02:21:25.656] Server  LOG      ✓ Compiled in 49ms
+[02:21:30.329] Server  LOG      ✓ Compiled in 48ms
+[02:21:32.831] Server  LOG      ✓ Compiled in 50ms
+[02:21:34.622] Server  LOG      ✓ Compiled in 48ms
+[02:21:44.724] Server  LOG      ✓ Compiled in 44ms
+[02:21:49.180] Server  LOG      ✓ Compiled in 53ms
+[02:21:51.825] Server  LOG      ✓ Compiled in 48ms
+[02:21:53.011] Server  LOG      ✓ Compiled in 45ms
+[02:21:54.818] Server  LOG      ✓ Compiled in 44ms
+[02:22:01.426] Server  LOG      ✓ Compiled in 45ms
+[02:22:03.562] Server  LOG      ✓ Compiled in 47ms
+[02:22:05.447] Server  LOG      ✓ Compiled in 49ms
+[02:22:06.759] Server  LOG      ✓ Compiled in 48ms
+[02:22:09.293] Server  LOG      ✓ Compiled in 49ms
+[02:22:43.470] Server  LOG      ✓ Compiled in 67ms
