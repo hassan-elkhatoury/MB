@@ -1,0 +1,1007 @@
+[00:00:02.998] Server  LOG      ✓ Ready in 2s
+[00:00:21.609] Server  LOG      ○ Compiling / ...
+[00:00:25.414] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:00:25.415] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+    [next]/internal/font/google/jetbrains_mono_21597d07.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:00:25.416] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:00:25.417] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+next/font: warning:
+Failed to download `JetBrains Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+    [next]/internal/font/google/jetbrains_mono_21597d07.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:00:29.194] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:00:29.195] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+    [next]/internal/font/google/jetbrains_mono_21597d07.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:00:29.196] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:00:29.198] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+next/font: warning:
+Failed to download `JetBrains Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+    [next]/internal/font/google/jetbrains_mono_21597d07.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:00:32.393] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:33.490] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/M...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="dark">
+                          <body
+                            className="inter_8f1c4a24-module__nx7jFG__variable jetbrains_mono_21597d07-module__LmI-Gq_..."
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                            ...
+                              <motion.div className="absolute p..." style={{left:"11.3...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "11.35757923539471%"
+-                                   left: "3.67735%"
++                                   top: "27.81327401593868%"
+-                                   top: "1.77478%"
++                                   width: 55.49055920938795
+-                                   width: "57.5804px"
++                                   height: 55.49055920938795
+-                                   height: "57.5804px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute p..." style={{left:"4.28...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "4.282682139664551%"
+-                                   left: "26.1349%"
++                                   top: "55.23106714456374%"
+-                                   top: "61.3821%"
++                                   width: 59.8395560946604
+-                                   width: "34.8372px"
++                                   height: 59.8395560946604
+-                                   height: "34.8372px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute p..." style={{left:"52.1...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "52.12342870068931%"
+-                                   left: "61.0946%"
++                                   top: "2.4673398948233727%"
+-                                   top: "53.3641%"
++                                   width: 47.280455485992846
+-                                   width: "50.5986px"
++                                   height: 47.280455485992846
+-                                   height: "50.5986px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute p..." style={{left:"71.9...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "71.91346745375247%"
+-                                   left: "35.6089%"
++                                   top: "28.530027274710758%"
+-                                   top: "71.7083%"
++                                   width: 39.55791257755266
+-                                   width: "55.7999px"
++                                   height: 39.55791257755266
+-                                   height: "55.7999px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute p..." style={{left:"42.1...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "42.17967915511114%"
+-                                   left: "86.5811%"
++                                   top: "13.574362921092186%"
+-                                   top: "4.78847%"
++                                   width: 32.81021164312831
+-                                   width: "21.1142px"
++                                   height: 32.81021164312831
+-                                   height: "21.1142px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute p..." style={{left:"45.6...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "45.69759020363233%"
+-                                   left: "34.248%"
++                                   top: "82.20751398747656%"
+-                                   top: "91.0572%"
++                                   width: 28.206131794387673
+-                                   width: "22.929px"
++                                   height: 28.206131794387673
+-                                   height: "22.929px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute p..." style={{left:"89.6...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "89.61101708743891%"
+-                                   left: "67.4364%"
++                                   top: "50.9137159023861%"
+-                                   top: "27.9418%"
++                                   width: 20.48402495977726
+-                                   width: "57.4486px"
++                                   height: 20.48402495977726
+-                                   height: "57.4486px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute p..." style={{left:"38.0...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "38.01473995945997%"
+-                                   left: "19.8641%"
++                                   top: "49.10582087585268%"
+-                                   top: "22.7639%"
++                                   width: 33.51108213160225
+-                                   width: "45.0782px"
++                                   height: 33.51108213160225
+-                                   height: "45.0782px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                            ...
+                  ...
+
+[00:00:33.628] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:33.628] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:33.628] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764691239578}
+[00:12:33.474] Server  LOG      ✓ Compiled in 175ms
+[00:12:37.743] Server  LOG      ✓ Compiled in 139ms
+[00:12:40.482] Server  LOG      ✓ Compiled in 179ms
+[00:12:50.645] Server  LOG      ✓ Compiled in 174ms
+[00:12:55.401] Server  LOG      ✓ Compiled in 123ms
+[00:12:56.684] Server  LOG      ✓ Compiled in 134ms
+[00:12:58.962] Server  LOG      ✓ Compiled in 124ms
+[00:14:28.935] Server  LOG      ✓ Compiled in 117ms
+[00:14:31.746] Server  LOG      ✓ Compiled in 144ms
+[00:16:43.675] Server  LOG      ✓ Compiled in 116ms
+[00:16:46.570] Server  LOG      ✓ Compiled in 117ms
+[00:17:37.322] Server  LOG      ✓ Compiled in 126ms
+[00:17:37.911] Browser ERROR   uncaughtError: ReferenceError: output is not defined
+[00:17:41.194] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:17:41.268] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:17:41.270] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+    [next]/internal/font/google/jetbrains_mono_21597d07.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:17:41.279] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:17:41.281] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+next/font: warning:
+Failed to download `JetBrains Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+    [next]/internal/font/google/jetbrains_mono_21597d07.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:17:41.743] Server  LOG      ✓ Compiled in 135ms
+[00:17:47.813] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:17:47.814] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+    [next]/internal/font/google/jetbrains_mono_21597d07.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:17:47.815] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:17:47.816] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+next/font: warning:
+Failed to download `JetBrains Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+    [next]/internal/font/google/jetbrains_mono_21597d07.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:17:48.048] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:50.181] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:33:9
+Ecmascript file had an error
+  31 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  32 |
+> 33 |   const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
+     |         ^^^^^^^
+  34 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  35 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  36 |
+
+the name `output1` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+[00:17:50.181] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:33:9
+Ecmascript file had an error
+  31 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  32 |
+> 33 |   const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
+     |         ^^^^^^^
+  34 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  35 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  36 |
+
+the name `output1` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+[00:17:50.181] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/M...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+                          className="dark"
+-                         suppresshydrationwarning="true"
+-                         data-qb-installed="true"
+                        >
+                          <body
+                            className="inter_8f1c4a24-module__nx7jFG__variable jetbrains_mono_21597d07-module__LmI-Gq_..."
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+-                           style={{overflow-x:"hidden",overflow-y:"hidden"}}
+                          >
+                            ...
+                              <motion.div className="absolute p..." style={{left:"44.6...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "44.64051131058023%"
+-                                   left: "64.6292%"
++                                   top: "8.380074902371426%"
+-                                   top: "92.9314%"
++                                   width: 43.10615041913542
+-                                   width: "57.5451px"
++                                   height: 43.10615041913542
+-                                   height: "57.5451px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute p..." style={{left:"35.4...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "35.400595617022226%"
+-                                   left: "22.28%"
++                                   top: "50.22715917668147%"
+-                                   top: "67.1085%"
++                                   width: 22.45711247532484
+-                                   width: "43.0858px"
++                                   height: 22.45711247532484
+-                                   height: "43.0858px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute p..." style={{left:"89.8...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "89.88338153097395%"
+-                                   left: "82.0215%"
++                                   top: "39.64702972476931%"
+-                                   top: "54.942%"
++                                   width: 55.026494922186565
+-                                   width: "32.2558px"
++                                   height: 55.026494922186565
+-                                   height: "32.2558px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute p..." style={{left:"4.05...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "4.057094176837528%"
+-                                   left: "81.0607%"
++                                   top: "3.7179886042020494%"
+-                                   top: "7.94037%"
++                                   width: 29.078713543482323
+-                                   width: "47.4728px"
++                                   height: 29.078713543482323
+-                                   height: "47.4728px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute p..." style={{left:"74.4...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "74.43774792637797%"
+-                                   left: "88.3959%"
++                                   top: "60.10604777231655%"
+-                                   top: "12.5565%"
++                                   width: 46.531656060685734
+-                                   width: "58.4992px"
++                                   height: 46.531656060685734
+-                                   height: "58.4992px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute p..." style={{left:"92.9...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "92.97782449992017%"
+-                                   left: "66.1868%"
++                                   top: "79.17583507011769%"
+-                                   top: "22.4784%"
++                                   width: 37.513629582470124
+-                                   width: "55.6609px"
++                                   height: 37.513629582470124
+-                                   height: "55.6609px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute p..." style={{left:"51.9...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "51.969550250676924%"
+-                                   left: "67.0318%"
++                                   top: "68.30715495119591%"
+-                                   top: "92.061%"
++                                   width: 27.296853165915586
+-                                   width: "24.5197px"
++                                   height: 27.296853165915586
+-                                   height: "24.5197px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute p..." style={{left:"16.9...", ...}} ...>
+                                <div
+                                  className="absolute pointer-events-none"
+                                  style={{
++                                   left: "16.9939753254423%"
+-                                   left: "84.9713%"
++                                   top: "64.5105925036514%"
+-                                   top: "56.5232%"
++                                   width: 58.702952733014804
+-                                   width: "51.1298px"
++                                   height: 58.702952733014804
+-                                   height: "51.1298px"
++                                   perspective: "500px"
+-                                   perspective: "500px"
++                                   opacity: 0
+-                                   opacity: "0"
++                                   transform: "scale(0)"
+-                                   transform: "scale(0)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                            ...
+                  ...
+
+[00:17:50.899] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:17:50.899] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:17:50.899] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764692276310}
+[00:17:50.907] Server  LOG      ✓ Compiled in 133ms
+[00:17:51.914] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:33:9
+Ecmascript file had an error
+  31 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  32 |
+> 33 |   const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
+     |         ^^^^^^^
+  34 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  35 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  36 |
+
+the name `output1` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+[00:17:53.824] Server  LOG      ✓ Compiled in 115ms
+[00:17:54.910] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:33:9
+Ecmascript file had an error
+  31 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  32 |
+> 33 |   const output1 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
+     |         ^^^^^^^
+  34 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  35 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  36 |
+
+the name `output1` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+[00:17:54.910] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:29:9
+Ecmascript file had an error
+  27 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  28 |
+> 29 |   const output2 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
+     |         ^^^^^^^
+  30 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  31 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  32 |
+
+the name `output2` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+[00:17:57.076] Server  LOG      ✓ Compiled in 103ms
+[00:17:57.908] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:29:9
+Ecmascript file had an error
+  27 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  28 |
+> 29 |   const output2 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
+     |         ^^^^^^^
+  30 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  31 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  32 |
+
+the name `output2` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+[00:17:59.950] Server  LOG      ✓ Compiled in 134ms
+[00:18:00.910] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:29:9
+Ecmascript file had an error
+  27 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  28 |
+> 29 |   const output2 = `CONTAINER ID   IMAGE       STATUS         PORTS                      NAMES
+     |         ^^^^^^^
+  30 | a1b2c3d4e5f6   mongo:6.0   Up 2 minutes   0.0.0.0:27017->27017/tcp   mongos
+  31 | b2c3d4e5f6g7   mongo:6.0   Up 2 minutes   0.0.0.0:27020->27017/tcp   config`
+  32 |
+
+the name `output2` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+[00:18:01.831] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:18:01.833] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+    [next]/internal/font/google/jetbrains_mono_21597d07.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:18:01.834] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:18:01.835] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+next/font: warning:
+Failed to download `JetBrains Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+    [next]/internal/font/google/jetbrains_mono_21597d07.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:18:08.291] Server  LOG      ✓ Compiled in 133ms
+[00:18:09.600] Server  LOG      ✓ Compiled in 142ms
+[00:18:11.622] Server  LOG      ✓ Compiled in 104ms
+[00:18:13.601] Server  LOG      ✓ Compiled in 120ms
+[00:18:18.113] Server  LOG      ✓ Compiled in 296ms
+[00:18:41.069] Server  LOG      ✓ Compiled in 140ms
+[00:18:43.960] Server  LOG      ✓ Compiled in 126ms
+[00:18:47.216] Server  LOG      ✓ Compiled in 131ms
+[00:18:50.724] Server  LOG      ✓ Compiled in 112ms
+[00:18:52.926] Server  LOG      ✓ Compiled in 128ms
+[00:18:56.738] Server  LOG      ✓ Compiled in 110ms
+[00:18:56.912] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:64:25
+Parsing ecmascript source code failed
+  62 |             <span className="font-semibold">Sortie Attendue</span>
+  63 |           </div>
+> 64 |           <div className">
+     |                         ^^
+  65 |             <CodeBlock code={output1} language="text" title="docker ps" />
+  66 |             <CodeBlock code={output2} language="text" title="docker ps" />
+  67 |             <CodeBlock code={output3} language="text" title="docker ps" />
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+[00:18:58.162] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:18:58.163] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+    [next]/internal/font/google/jetbrains_mono_21597d07.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:18:58.164] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:18:58.166] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+next/font: warning:
+Failed to download `JetBrains Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+    [next]/internal/font/google/jetbrains_mono_21597d07.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:19:02.601] Server  LOG      ✓ Compiled in 546ms
+[00:19:07.699] Server  LOG      ✓ Compiled in 120ms
+[00:19:13.047] Server  LOG      ✓ Compiled in 130ms
+[00:19:14.857] Server  LOG      ✓ Compiled in 129ms
+[00:19:16.564] Server  LOG      ✓ Compiled in 101ms
+[00:19:18.570] Server  LOG      ✓ Compiled in 113ms
+[00:19:18.902] Browser ERROR   ./Desktop/MB/components/slides/slide-start-cluster.tsx:65:35
+Parsing ecmascript source code failed
+  63 |           </div>
+  64 |           <div className="gap-5 ">
+> 65 |             <CodeBlock className= code={output1} language="text" title="docker ps" />
+     |                                   ^^^^
+  66 |             <CodeBlock code={output2} language="text" title="docker ps" />
+  67 |             <CodeBlock code={output3} language="text" title="docker ps" />
+  68 |             <CodeBlock code={output4} language="text" title="docker ps" />
+
+Expected '</', got 'code'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component Browser]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/MB/components/slides/slide-start-cluster.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Client Component SSR]
+    ./Desktop/MB/components/mongodb-presentation.tsx [Server Component]
+    ./Desktop/MB/app/page.tsx [Server Component]
+[00:19:20.286] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:19:20.287] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+    [next]/internal/font/google/jetbrains_mono_21597d07.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:19:20.288] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:19:20.289] Server  WARN     ⚠ [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+next/font: warning:
+Failed to download `JetBrains Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jetbrains_mono_21597d07.module.css
+    [next]/internal/font/google/jetbrains_mono_21597d07.js
+    ./Desktop/MB/app/layout.tsx
+
+
+[00:19:22.970] Server  LOG      ✓ Compiled in 123ms
+[00:19:30.493] Server  LOG      ✓ Compiled in 113ms
+[00:19:33.037] Server  LOG      ✓ Compiled in 636ms
+[00:19:36.447] Server  LOG      ✓ Compiled in 110ms
+[00:19:38.698] Server  LOG      ✓ Compiled in 91ms
+[00:20:04.286] Server  LOG      ✓ Compiled in 113ms
+[00:20:12.080] Server  LOG      ✓ Compiled in 117ms
+[00:20:13.252] Server  LOG      ✓ Compiled in 106ms
+[00:20:19.875] Server  LOG      ✓ Compiled in 260ms
+[00:20:31.628] Server  LOG      ✓ Compiled in 138ms
+[00:20:36.902] Server  LOG      ✓ Compiled in 122ms
+[00:22:58.135] Server  LOG      ✓ Compiled in 119ms
+[00:27:45.314] Server  LOG      ✓ Compiled in 133ms
+[00:27:53.559] Server  LOG      ✓ Compiled in 145ms
+[01:15:10.766] Server  LOG      ✓ Compiled in 494ms
+[01:15:12.263] Server  LOG      ✓ Compiled in 195ms
+[01:15:14.073] Server  LOG      ✓ Compiled in 145ms

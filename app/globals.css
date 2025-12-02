@@ -1,0 +1,322 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* MongoDB neon green + black theme */
+:root {
+  --background: #010101;
+  --foreground: #ffffff;
+  --card: rgba(16, 170, 80, 0.05);
+  --card-foreground: #ffffff;
+  --popover: #0a0a0a;
+  --popover-foreground: #ffffff;
+  --primary: #10aa50;
+  --primary-foreground: #010101;
+  --secondary: #00ff99;
+  --secondary-foreground: #010101;
+  --muted: #1a1a1a;
+  --muted-foreground: #a3a3a3;
+  --accent: #00ff99;
+  --accent-foreground: #010101;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: rgba(16, 170, 80, 0.2);
+  --input: rgba(16, 170, 80, 0.1);
+  --ring: #10aa50;
+  --chart-1: #10aa50;
+  --chart-2: #00ff99;
+  --chart-3: #4ecdc4;
+  --chart-4: #ffe66d;
+  --chart-5: #ff6b6b;
+  --radius: 0.75rem;
+  --sidebar: #0a0a0a;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #10aa50;
+  --sidebar-primary-foreground: #010101;
+  --sidebar-accent: rgba(16, 170, 80, 0.1);
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: rgba(16, 170, 80, 0.2);
+  --sidebar-ring: #10aa50;
+}
+
+.dark {
+  --background: #010101;
+  --foreground: #ffffff;
+  --card: rgba(16, 170, 80, 0.05);
+  --card-foreground: #ffffff;
+  --popover: #0a0a0a;
+  --popover-foreground: #ffffff;
+  --primary: #10aa50;
+  --primary-foreground: #010101;
+  --secondary: #00ff99;
+  --secondary-foreground: #010101;
+  --muted: #1a1a1a;
+  --muted-foreground: #a3a3a3;
+  --accent: #00ff99;
+  --accent-foreground: #010101;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: rgba(16, 170, 80, 0.2);
+  --input: rgba(16, 170, 80, 0.1);
+  --ring: #10aa50;
+  --chart-1: #10aa50;
+  --chart-2: #00ff99;
+  --chart-3: #4ecdc4;
+  --chart-4: #ffe66d;
+  --chart-5: #ff6b6b;
+  --sidebar: #0a0a0a;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #10aa50;
+  --sidebar-primary-foreground: #010101;
+  --sidebar-accent: rgba(16, 170, 80, 0.1);
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: rgba(16, 170, 80, 0.2);
+  --sidebar-ring: #10aa50;
+}
+
+@theme inline {
+  --font-sans: "Inter", "Inter Fallback", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Geist Mono", monospace;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    overflow: hidden;
+  }
+}
+
+/* Custom utility classes for neon effects */
+.glow-green {
+  box-shadow: 0 0 20px rgba(16, 170, 80, 0.5), 0 0 40px rgba(0, 255, 153, 0.3);
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(16, 170, 80, 0.8), 0 0 20px rgba(0, 255, 153, 0.5);
+}
+
+.glassmorphism {
+  background: rgba(16, 170, 80, 0.08);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(16, 170, 80, 0.2);
+}
+
+/* Enhanced 3D card effect */
+.card-3d {
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.card-3d:hover {
+  transform: translateZ(20px) rotateX(2deg) rotateY(-2deg);
+}
+
+/* Animated gradient border */
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.gradient-border {
+  --gradient-angle: 0deg;
+  border: 2px solid transparent;
+  background: linear-gradient(var(--background), var(--background)) padding-box,
+    conic-gradient(from var(--gradient-angle), #10aa50, #00ff99, #10aa50) border-box;
+  animation: rotate-gradient 3s linear infinite;
+}
+
+@keyframes rotate-gradient {
+  to {
+    --gradient-angle: 360deg;
+  }
+}
+
+/* Floating animation */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) rotateX(0) rotateY(0);
+  }
+  25% {
+    transform: translateY(-10px) rotateX(2deg) rotateY(2deg);
+  }
+  50% {
+    transform: translateY(-5px) rotateX(0) rotateY(-2deg);
+  }
+  75% {
+    transform: translateY(-15px) rotateX(-2deg) rotateY(0);
+  }
+}
+
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Pulse glow animation */
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(16, 170, 80, 0.3), 0 0 40px rgba(0, 255, 153, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(16, 170, 80, 0.6), 0 0 80px rgba(0, 255, 153, 0.3);
+  }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Scan line effect */
+@keyframes scan-line {
+  0% {
+    top: -10%;
+  }
+  100% {
+    top: 110%;
+  }
+}
+
+.scan-line::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(16, 170, 80, 0.5), transparent);
+  animation: scan-line 3s linear infinite;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #10aa50;
+  border-radius: 3px;
+}
+
+/* Added custom scrollbar class for specific containers */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(10, 10, 10, 0.5);
+  border-radius: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(16, 170, 80, 0.5);
+  border-radius: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #10aa50;
+}
+
+/* Added custom scrollbar class for specific containers */
+.custom-scrollbar2::-webkit-scrollbar {
+  width: 2px;
+}
+
+.custom-scrollbar2::-webkit-scrollbar-track {
+  background: rgba(10, 10, 10, 0);
+  border-radius: 2px;
+}
+
+.custom-scrollbar2::-webkit-scrollbar-thumb {
+  background: rgba(16, 170, 80, 0);
+  border-radius: 2px;
+}
+
+.custom-scrollbar2::-webkit-scrollbar-thumb:hover {
+  background: #10aa5000;
+}
+
+/* Text gradient utility */
+.text-gradient {
+  background: linear-gradient(135deg, #10aa50, #00ff99);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 3D perspective container */
+.perspective-container {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+/* Holographic effect */
+.holographic {
+  background: linear-gradient(
+    45deg,
+    rgba(16, 170, 80, 0.1) 0%,
+    rgba(0, 255, 153, 0.15) 25%,
+    rgba(16, 170, 80, 0.1) 50%,
+    rgba(0, 255, 153, 0.15) 75%,
+    rgba(16, 170, 80, 0.1) 100%
+  );
+  background-size: 200% 200%;
+  animation: holographic-shift 5s ease infinite;
+}
+
+@keyframes holographic-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
