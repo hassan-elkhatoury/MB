@@ -17,9 +17,6 @@ import { SlideAddShards } from "./slides/slide-add-shards"
 import { SlideEnableSharding } from "./slides/slide-enable-sharding"
 import { SlideInsertTest } from "./slides/slide-insert-test"
 import { SlideScreenshots } from "./slides/slide-screenshots"
-import { SlideTestDetails } from "./slides/slide-test-details"
-import { SlideFailover } from "./slides/slide-failover"
-import { SlideVerification } from "./slides/slide-verification"
 import { SlideChecklist } from "./slides/slide-checklist"
 import { SlideEnd } from "./slides/slide-end"
 import { SlideThankYou } from "./slides/slide-thankyou"
@@ -38,12 +35,9 @@ const slides = [
   { id: 11, title: "Activer Sharding", component: SlideEnableSharding },
   { id: 12, title: "Insertion & Test", component: SlideInsertTest },
   { id: 13, title: "Captures d'écran", component: SlideScreenshots },
-  { id: 14, title: "Détails des Tests", component: SlideTestDetails },
-  { id: 15, title: "Failover", component: SlideFailover },
-  { id: 16, title: "Vérification", component: SlideVerification },
-  { id: 17, title: "Checklist", component: SlideChecklist },
-  { id: 18, title: "Fin", component: SlideEnd },
-  { id: 19, title: "Merci", component: SlideThankYou },
+  { id: 14, title: "Checklist", component: SlideChecklist },
+  { id: 15, title: "Fin", component: SlideEnd },
+  { id: 16, title: "Merci", component: SlideThankYou },
 ]
 
 export function MongoDBPresentation() {

@@ -15,10 +15,7 @@ sh.addShard("rs1/laptop2:27017,laptop3:27017,laptop4:27017")
 sh.addShard("rs2/laptop3:27018,laptop2:27018,laptop4:27018")
 
 # Ajouter le Shard RS3
-sh.addShard("rs3/laptop4:27019,laptop2:27019,laptop3:27019")
-
-# Vérifier les shards
-sh.status()`
+sh.addShard("rs3/laptop4:27019,laptop2:27019,laptop3:27019")`
 
   const shards = [
     { name: "rs1", hosts: ["laptop2:27017", "laptop3:27017", "laptop4:27017"], color: "#10AA50" },

@@ -12,10 +12,7 @@ sh.enableSharding("transport")
 sh.shardCollection("transport.buses", { city: "hashed" })
 sh.shardCollection("transport.lines", { city: "hashed" })
 sh.shardCollection("transport.stops", { city: "hashed" })
-sh.shardCollection("transport.tickets", { city: "hashed" })
-# Vérifier le statut du sharding
-use transport
-db.lines.getShardDistribution()`
+sh.shardCollection("transport.tickets", { city: "hashed" })`
 
   const output = `{
   "ok": 1,

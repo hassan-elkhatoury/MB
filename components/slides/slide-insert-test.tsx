@@ -19,7 +19,7 @@ db.lines.insertOne({
 })
 
 # Vérifier l'insertion
-db.lines.find().pretty()`
+db.lines.find()`
 
   const output = `{
   "_id": ObjectId("6571a2b3c4d5e6f7g8h9i0j1"),
@@ -48,26 +48,6 @@ db.lines.find().pretty()`
           <CodeBlock code={output} language="json" title="Document Inséré" />
         </motion.div>
       </div>
-
-      <motion.div
-        className="mt-8 flex justify-center"
-        initial={{ opacity: 0, scale: 0 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ delay: 1, type: "spring" }}
-      >
-        <div className="glassmorphism p-6 rounded-2xl flex items-center gap-4">
-          <motion.div animate={{ rotate: 360 }} transition={{ repeat: 3, duration: 1, ease: "linear" }}>
-            <RefreshCw className="w-8 h-8 text-secondary" />
-          </motion.div>
-          <div>
-            <h3 className="text-xl font-bold text-secondary flex items-center gap-2">
-              <CheckCircle2 className="w-6 h-6" />
-              Réplication Réussie
-            </h3>
-            <p className="text-sm text-muted-foreground">Données synchronisées sur tous les shards</p>
-          </div>
-        </div>
-      </motion.div>
     </div>
   )
 }
