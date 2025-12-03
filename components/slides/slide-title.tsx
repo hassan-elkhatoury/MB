@@ -23,7 +23,6 @@ export function SlideTitle() {
     { icon: Database, label: "Installation" },
     { icon: Server, label: "Configuration" },
     { icon: RefreshCw, label: "Réplication" },
-    { icon: Shield, label: "Failover" },
     {icon: CheckCircle, label: "Tests"}
   ]
 
