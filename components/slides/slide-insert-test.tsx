@@ -6,7 +6,7 @@ import { FileText, CheckCircle2, RefreshCw } from "lucide-react"
 
 export function SlideInsertTest() {
   const insertCommand = `# Se connecter à mongos
-mongosh --host laptop1:27017
+mongosh --host laptop1:27020
 
 # Utiliser la base de données transport
 use transport

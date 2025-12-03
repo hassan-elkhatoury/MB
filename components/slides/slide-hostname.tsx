@@ -4,10 +4,10 @@ import { motion } from "framer-motion"
 import { CodeBlock } from "../code-block"
 import { Monitor } from "lucide-react"
 
-const hostsContent = `192.168.1.11   laptop1
-192.168.1.12   laptop2
-192.168.1.13   laptop3
-192.168.1.14   laptop4`
+const hostsContent = `10.39.139.249   laptop1
+10.39.139.237   laptop2
+10.39.139.119   laptop3
+10.39.139.232   laptop4`
 
 export function SlideHostname() {
   return (
