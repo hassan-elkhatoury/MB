@@ -1,0 +1,14 @@
+# Laptop1 - Salma (routeur mongos)
+version: '3.8'
+services:
+  mongos:
+    image: mongo:6.0
+    container_name: mongos
+    command: mongos --configdb configRS/laptop2:27020,laptop3:27020,laptop4:27020 --bind_ip_all
+    ports:
+      - "27020:27020"
+    networks:
+      - mongo-net
+networks:
+  mongo-net:
+    driver: bridge

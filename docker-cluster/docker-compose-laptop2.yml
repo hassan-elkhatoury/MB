@@ -1,0 +1,39 @@
+# Laptop2 - Douae
+version: '3.8'
+services:
+  config:
+    image: mongo:6.0
+    container_name: config
+    command: mongod --configsvr --replSet configRS --bind_ip_all
+    ports:
+      - "27020:27017"
+    volumes:
+      - ./data/config:/data/db
+  rs1_p:
+    image: mongo:6.0
+    container_name: rs1_p
+    command: mongod --shardsvr --replSet rs1 --bind_ip_all
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data/rs1_p:/data/db
+  rs2_s2:
+    image: mongo:6.0
+    container_name: rs2_s2
+    command: mongod --shardsvr --replSet rs2 --bind_ip_all
+    ports:
+      - "27018:27017"
+  rs3_s2:
+    image: mongo:6.0
+    container_name: rs3_s2
+    command: mongod --shardsvr --replSet rs3 --bind_ip_all
+    ports:
+      - "27019:27017"
+  mongos:
+    image: mongo:6.0
+    container_name: mongos
+    command: >
+      mongos --configdb configRS/laptop2:26050,laptop3:26050,laptop4:26050
+      --bind_ip_all --port 27020
+    ports:
+      - "27020:27020"
