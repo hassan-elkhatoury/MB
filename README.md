@@ -1,50 +1,76 @@
-# MongoDB Sharded Cluster Deployment
+# 🍃 MongoShard: Distributed Cluster Lab
 
-This project documents and presents the deployment of a MongoDB Sharded Cluster distributed across 4 physical machines, using Docker and Docker Compose.
+## 🌟 Overview
 
-It is built around an interactive web application (the technical presentation) and also provides all the necessary configuration files to reproduce the architecture locally.
+**MongoShard** is a comprehensive, interactive laboratory project designed to demonstrate the real-world deployment of a highly available, sharded MongoDB cluster across multiple physical machines. 
 
-## Cluster Architecture
+This project dual-functions as both **Infrastructure as Code** (ready-to-use Docker Compose files) and an **Interactive Presentation Deck** (a Next.js web app built to guide users step-by-step through the deployment process).
 
-The architecture is distributed across 4 machines (Laptops) communicating with each other via the local network:
+## 🏗️ Architecture Design
 
-*   **Laptop 1 ** : Routing server (1 x `mongos`).
-*   **Laptop 2 ** : Configuration server (Config Server) + Primary Node of Replica Set 1 (`rs1_p`) + Secondary nodes for `rs2` and `rs3` + `mongos` router.
-*   **Laptop 3 ** : Configuration server + Primary Node of Replica Set 2 (`rs2_p`) + Secondary nodes for `rs1` and `rs3` + `mongos` router.
-*   **Laptop 4 ** : Configuration server + Primary Node of Replica Set 3 (`rs3_p`) + Secondary nodes for `rs1` and `rs2` + `mongos` router.
+The MongoDB cluster is distributed across 4 machines (Laptops) communicating via a local area network (LAN). This setup ensures high availability, redundancy, and load balancing.
 
-## Project Structure
+*   **Laptop 1 **: 
+    *   `mongos` (Routing Server) - Handles client requests and routes them to the appropriate shards.
+*   **Laptop 2 **: 
+    *   Config Server Node (`configRS`)
+    *   Primary Node for Replica Set 1 (`rs1_p`)
+    *   Secondary Node for Replica Set 2 (`rs2_s2`)
+    *   Secondary Node for Replica Set 3 (`rs3_s2`)
+    *   `mongos` (Routing Server)
+*   **Laptop 3 **: 
+    *   Config Server Node (`configRS`)
+    *   Primary Node for Replica Set 2 (`rs2_p`)
+    *   Secondary Node for Replica Set 1 (`rs1_s2`)
+    *   Secondary Node for Replica Set 3 (`rs3_s3`)
+    *   `mongos` (Routing Server)
+*   **Laptop 4 **: 
+    *   Config Server Node (`configRS`)
+    *   Primary Node for Replica Set 3 (`rs3_p`)
+    *   Secondary Node for Replica Set 1 (`rs1_s3`)
+    *   Secondary Node for Replica Set 2 (`rs2_s3`)
+    *   `mongos` (Routing Server)
 
-*   **/docker-cluster/** : Contains the specific `docker-compose.yml` files for each machine to deploy the containers (MongoDB config, data nodes, mongos routers). Read the [dedicated README](./docker-cluster/README.md) for details.
-*   **Web Application (Presentation)** : The source files at the root of the project correspond to the Next.js web application that serves as an interactive presentation medium to explain the architecture, network configuration (`/etc/hosts`), shell commands for initializing Replica Sets, and adding Shards.
+## 📂 Project Structure
 
-## Setting up the MongoDB Cluster (Summary)
+*   **`/docker-cluster/`**: Contains the targeted `docker-compose.yml` configurations for each of the 4 laptops. Refer to the [Docker Setup README](./docker-cluster/README.md) for node-specific launch instructions.
+*   **Web Application (Root)**: The Next.js 14 app providing an interactive, slide-by-slide tutorial on configuring hosts, initiating Docker containers, setting up replica sets, and injecting data.
 
-To deploy the architecture:
-1.  **Network Configuration:** Modify the `hosts` file of each system so they can ping each other (laptop1, laptop2, laptop3, laptop4).
-2.  **Launch Docker Compose:** Execute the appropriate docker-compose file on each respective machine using `docker-compose up -d`.
-3.  **Initialize Config Servers:** Connect to one of the config servers to initialize the `configRS` Replica Set.
-4.  **Initialize Data Shards:** Initialize the Replica Sets `rs1`, `rs2` and `rs3` on their respective Primary nodes.
-5.  **Enable Sharding:** Connect to a `mongos` instance, add the shards to the cluster via `sh.addShard()`, and enable sharding on your target databases and collections via `sh.enableSharding()`.
+## 🚀 Setting up the MongoDB Cluster (Quick Guide)
 
-Check the slides of the web application for the exact Mongo Shell (`mongosh`) commands to execute at each step.
+1.  **LAN Configuration:** Edit the `/etc/hosts` (macOS/Linux) or `C:\Windows\System32\drivers\etc\hosts` (Windows) file on every laptop so they can address each other locally using standard hostnames (`laptop1`, `laptop2`, `laptop3`, `laptop4`).
+2.  **Docker Initialization:** Spin up the assigned `docker-compose.yml` on each laptop.
+    ```bash
+    docker-compose up -d
+    ```
+3.  **Initialize Config Servers:** Access the Mongo shell on any config server container and initiate the `configRS` replica set.
+4.  **Initialize Shard Replicas:** Init `rs1`, `rs2`, and `rs3` from their respective Primary nodes.
+5.  **Enable Sharding:** Log into any running `mongos` router, map the shards (`sh.addShard()`), and enable sharding on your target databases and collections.
 
-## Technologies Used
+*Note: For the exact `mongosh` queries, start the Next.js presentation web app.*
 
-*   **Docker & Docker Compose** for database container deployment.
-*   **MongoDB 6.0**
-*   **Next.js & React & TailwindCSS & Framer Motion** (Frontend for the interactive presentation).
+## 💻 Technologies Used
 
-## Running the Presentation Web App
+**Infrastructure:**
+*   **MongoDB 6.0** (Core database engine)
+*   **Docker & Docker Compose** (Containerization and orchestration)
 
-To view or modify the interactive presentation (Next.js):
+**Presentation Web App:**
+*   **Next.js (App Router)** (React framework)
+*   **Tailwind CSS** (Styling)
+*   **Framer Motion** (Smooth slide transitions and animations)
+*   **Lucide React & Shadcn UI** (Icons and reusable UI components)
+
+## 🏃‍♂️ Running the Interactive Presentation
+
+To launch the web-based slide deck on your local machine:
 
 ```bash
-# Install dependencies
+# Install NPM dependencies
 npm install
 
-# Start the local development server
+# Start the Next.js development server
 npm run dev
 ```
 
-The presentation will be accessible at `http://localhost:3000`.
+Visit [http://localhost:3000](http://localhost:3000) to view the presentation.
